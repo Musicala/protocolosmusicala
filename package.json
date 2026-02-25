@@ -1,0 +1,64 @@
+{
+  "name": "protocolos-musicala",
+  "version": "1.0.0",
+  "description": "Protocolos · Musicala (Firestore Edition)",
+  "private": true,
+  "type": "module",
+  "main": "app.js",
+
+  "scripts": {
+    "dev": "vite --host",
+    "start": "npm run dev",
+    "build": "vite build",
+    "preview": "vite preview --host",
+
+    "import:protocolos": "node scripts/import-protocolos.mjs",
+
+    "clean": "rimraf dist .vite node_modules/.vite",
+    "reset": "npm run clean && npm install",
+
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "typecheck": "tsc -p ./tsconfig.json --noEmit"
+  },
+
+  "keywords": [
+    "musicala",
+    "protocolos",
+    "firestore",
+    "firebase",
+    "vite",
+    "pwa"
+  ],
+
+  "author": "Musicala",
+  "license": "ISC",
+
+  "engines": {
+    "node": ">=18.0.0"
+  },
+
+  "dependencies": {
+    "firebase": "^12.8.0",
+    "firebase-admin": "^13.6.1"
+  },
+
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "rimraf": "^6.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^7.3.1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/protocolos-musicala"
+  },
+
+  "bugs": {
+    "url": "https://github.com/your-org/protocolos-musicala/issues"
+  },
+
+  "homepage": "https://your-org.github.io/protocolos-musicala/"
+}

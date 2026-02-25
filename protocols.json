@@ -1,0 +1,2201 @@
+{
+  "schema_version": "1.2.0",
+  "generated_at": "2026-02-25T18:15:31.104473Z",
+  "source_file": "Protocolos y flujos Musicala 2026.xlsx",
+  "categories": [
+    "Académico",
+    "Administrativo",
+    "Apertura",
+    "Atención al cliente y ventas",
+    "Clases",
+    "Contabilidad",
+    "Documentos",
+    "Generales",
+    "Legal",
+    "Recursos Humanos"
+  ],
+  "protocols_count": 82,
+  "protocols": [
+    {
+      "id": "academico-actualizar-registros-de-clase-tarea-academica-66144901",
+      "category": "Académico",
+      "title": "Actualizar registros de clase - Tarea académica",
+      "summary": "Abrir Manager",
+      "steps": [
+        "Abrir Manager",
+        "Abrir página de Registros pendientes",
+        "Iniciar con los más actuales que no se hayan subido e ir yendo hacia atrás, del más reciente al más antiguo"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Actualizar registros de clase - Tarea académica",
+          "Paso 1": "Abrir Manager",
+          "Paso 2": "Abrir página de Registros pendientes",
+          "Paso 3": "Iniciar con los más actuales que no se hayan subido e ir yendo hacia atrás, del más reciente al más antiguo"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-agendamiento-de-horario-de-equipo-b8f0177f",
+      "category": "Académico",
+      "title": "Agendamiento de horario de equipo",
+      "summary": "",
+      "steps": [],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Agendamiento de horario de equipo"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-asignacion-de-clase-a-profe-que-no-conoce-el-est-be51bc01",
+      "category": "Académico",
+      "title": "Asignación de clase a profe que no conoce el estilo/instrumento",
+      "summary": "Realizar capacitación con docente",
+      "steps": [
+        "Realizar capacitación con docente",
+        "Asignar tiempo para practicar lo aprendido"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Asignación de clase a profe que no conoce el estilo/instrumento",
+          "Paso 1": "Realizar capacitación con docente",
+          "Paso 2": "Asignar tiempo para practicar lo aprendido"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-docente-de-reemplazo-80733f4d",
+      "category": "Académico",
+      "title": "Docente de Reemplazo",
+      "summary": "Enviar información sobre la clase",
+      "steps": [
+        "Enviar información sobre la clase",
+        "Enviarle regustro de clases de los estudiantes",
+        "Al finalizar la clase, solicitar cuenta nequi preferiblemente",
+        "Realizar cuenta de cobro por el valor",
+        "Enviar formulario de la clase de reemplazo"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Docente de Reemplazo",
+          "Paso 1": "Enviar información sobre la clase",
+          "Paso 2": "Enviarle regustro de clases de los estudiantes",
+          "Paso 3": "Al finalizar la clase, solicitar cuenta nequi preferiblemente",
+          "Paso 4": "Realizar cuenta de cobro por el valor",
+          "Paso 5": "Enviar formulario de la clase de reemplazo"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-docente-nuevo-b2009bd1",
+      "category": "Académico",
+      "title": "Docente nuevo",
+      "summary": "Enviar archivo de Docentes general",
+      "steps": [
+        "Enviar archivo de Docentes general",
+        "Enviar proceso(Mensaje predeterminado) y Archivo de Cuenta de Cobro"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Docente nuevo",
+          "Paso 1": "Enviar archivo de Docentes general",
+          "Paso 2": "Enviar proceso(Mensaje predeterminado) y Archivo de Cuenta de Cobro"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-estudiante-menor-de-edad-se-comporta-de-manera-i-fa7a1c22",
+      "category": "Académico",
+      "title": "Estudiante menor de edad se comporta de manera inadecuada en clase con otro compañero",
+      "summary": "Garantizar seguridad, cuidado y aprendizaje; resolver la situación sin escalar la tensión; dejar huella escrita para seguimiento con familia y coordinación.",
+      "steps": [
+        "Detén y prioriza seguridad (0–1 min).",
+        "Voz calmada, postura neutra. Coloca distancia física si hay empujones o faltas de respeto.",
+        "Frase corta: “Alto, separémonos. Ahorita volvemos a esto. Primero nos cuidamos.”",
+        "Separa y desescalas (1–3 min).",
+        "Ubica a cada estudiante en puntos distintos del salón (o pasillo visible). Pide respiraciones lentas (3 ciclos). Evita regaños públicos y juicios.",
+        "Regla clara y retorno a la clase (1 min).",
+        "“Regla de cuidado: sin ofensas ni contacto físico. Vamos a retomar. Al final hablaré con ustedes dos.”",
+        "Continúa la actividad para no “premiar” con protagonismo el conflicto.",
+        "Observación breve y notas objetivas (durante la clase).",
+        "Apunta en una hojita frases hechas/acciones textuales (qué pasó, quién, cuándo, dónde). Nada de interpretaciones (“me miró feo”); describe hechos (“dijo: ‘…’”, “empujó el brazo de…”).",
+        "Cierre individual rápido (últimos 5 min).",
+        "a) Con estudiante A (1–2 min): “Te escucho en 30 segundos: ¿qué pasó desde tu mirada?”",
+        "b) Con estudiante B (1–2 min) igual.",
+        "Cierra con expectativa: “Mañana/En la tarde haremos un acuerdo corto para reparar y prevenir.”",
+        "Registro en la hoja “Académico” (máx. 24 h).",
+        "Carga el evento con datos completos (ver plantilla abajo). Marca tipo de conducta y acción inmediata realizada.",
+        "Contacto con familia (define Coordinación; el docente puede sugerirlo en el registro).",
+        "Si corresponde, se hace llamada breve y respetuosa (ver guion). Deja constancia de fecha/hora.",
+        "Reparación y acuerdos (48–72 h).",
+        "Mini–mediación guiada (10–15 min) con ambos estudiantes:",
+        "¿Qué pasó? ¿A quién afectó y cómo?",
+        "¿Cómo lo reparamos? (disculpa, gesto concreto, apoyo académico, norma clara)",
+        "¿Qué haremos distinto? (una regla, una señal, cambio de puesto, coparte/mentor)",
+        "Documento: acuerdos, responsables y fecha de revisión.",
+        "Seguimiento y cierre (1–4 semanas según caso).",
+        "Observa cumplimiento; si hay reincidencia, escala el nivel de medida (ver matriz) y actualiza el registro con la decisión."
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Categoría": "Durante la clase",
+          "Protocolo": "Estudiante menor de edad se comporta de manera inadecuada en clase con otro compañero",
+          "Objetivo": "Garantizar seguridad, cuidado y aprendizaje; resolver la situación sin escalar la tensión; dejar huella escrita para seguimiento con familia y coordinación.",
+          "¿Cuándo se activa?": "Cualquier conducta que interrumpe la clase, falta al respeto, genera riesgo (físico o emocional) o afecta el derecho a aprender de otro estudiante.",
+          "Roles": "Docente a cargo: Contiene, decide acciones inmediatas y registra el hecho.\n\nLíder/Coordinación Académica: Revisa el registro, define medidas y comunica a familias si aplica.\n\nAtención/Orientación (si existe): Apoya mediación y seguimiento socioemocional.\n\nDirección: Interviene en casos graves/recurrentes.",
+          "Paso 1": "Detén y prioriza seguridad (0–1 min).\nVoz calmada, postura neutra. Coloca distancia física si hay empujones o faltas de respeto.\nFrase corta: “Alto, separémonos. Ahorita volvemos a esto. Primero nos cuidamos.”",
+          "Paso 2": "Separa y desescalas (1–3 min).\nUbica a cada estudiante en puntos distintos del salón (o pasillo visible). Pide respiraciones lentas (3 ciclos). Evita regaños públicos y juicios.",
+          "Paso 3": "Regla clara y retorno a la clase (1 min).\n“Regla de cuidado: sin ofensas ni contacto físico. Vamos a retomar. Al final hablaré con ustedes dos.”\nContinúa la actividad para no “premiar” con protagonismo el conflicto.",
+          "Paso 4": "Observación breve y notas objetivas (durante la clase).\nApunta en una hojita frases hechas/acciones textuales (qué pasó, quién, cuándo, dónde). Nada de interpretaciones (“me miró feo”); describe hechos (“dijo: ‘…’”, “empujó el brazo de…”).",
+          "Paso 5": "Cierre individual rápido (últimos 5 min).\na) Con estudiante A (1–2 min): “Te escucho en 30 segundos: ¿qué pasó desde tu mirada?”\nb) Con estudiante B (1–2 min) igual.\nCierra con expectativa: “Mañana/En la tarde haremos un acuerdo corto para reparar y prevenir.”",
+          "Paso 6": "Registro en la hoja “Académico” (máx. 24 h).\nCarga el evento con datos completos (ver plantilla abajo). Marca tipo de conducta y acción inmediata realizada.",
+          "Paso 7": "Contacto con familia (define Coordinación; el docente puede sugerirlo en el registro).\nSi corresponde, se hace llamada breve y respetuosa (ver guion). Deja constancia de fecha/hora.",
+          "Paso 8": "Contacto con familia (define Coordinación; el docente puede sugerirlo en el registro).\nSi corresponde, se hace llamada breve y respetuosa (ver guion). Deja constancia de fecha/hora.",
+          "Paso 9": "Reparación y acuerdos (48–72 h).\nMini–mediación guiada (10–15 min) con ambos estudiantes:\n\n¿Qué pasó? ¿A quién afectó y cómo?\n\n¿Cómo lo reparamos? (disculpa, gesto concreto, apoyo académico, norma clara)\n\n¿Qué haremos distinto? (una regla, una señal, cambio de puesto, coparte/mentor)\nDocumento: acuerdos, responsables y fecha de revisión.",
+          "Paso 10": "Seguimiento y cierre (1–4 semanas según caso).\nObserva cumplimiento; si hay reincidencia, escala el nivel de medida (ver matriz) y actualiza el registro con la decisión."
+        },
+        "subcategory": "Durante la clase",
+        "objective": "Garantizar seguridad, cuidado y aprendizaje; resolver la situación sin escalar la tensión; dejar huella escrita para seguimiento con familia y coordinación.",
+        "activation": "Cualquier conducta que interrumpe la clase, falta al respeto, genera riesgo (físico o emocional) o afecta el derecho a aprender de otro estudiante.",
+        "roles": "Docente a cargo: Contiene, decide acciones inmediatas y registra el hecho.\n\nLíder/Coordinación Académica: Revisa el registro, define medidas y comunica a familias si aplica.\n\nAtención/Orientación (si existe): Apoya mediación y seguimiento socioemocional.\n\nDirección: Interviene en casos graves/recurrentes."
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-grabacion-y-edicion-de-videos-c1a74d3f",
+      "category": "Académico",
+      "title": "Grabación y edición de videos",
+      "summary": "Elegir un buen fondo",
+      "steps": [
+        "Elegir un buen fondo",
+        "Si se va a editar mucho y se requiere muchos elementos visuales usar la pantalla verde",
+        "Grabar siembre con micrófono inhalámbrico",
+        "Tener estructura y guión claro",
+        "Colocar intro y outro de Musicala",
+        "Colocar un filtro (recomendado Natural)",
+        "Agregar textos y elementos visuales",
+        "Cortar secciones innecesarias o momentos que no quedaron bien"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Grabación y edición de videos",
+          "Paso 1": "Elegir un buen fondo",
+          "Paso 2": "Si se va a editar mucho y se requiere muchos elementos visuales usar la pantalla verde",
+          "Paso 3": "Grabar siembre con micrófono inhalámbrico",
+          "Paso 4": "Tener estructura y guión claro",
+          "Paso 5": "Colocar intro y outro de Musicala",
+          "Paso 6": "Colocar un filtro (recomendado Natural)",
+          "Paso 7": "Agregar textos y elementos visuales",
+          "Paso 8": "Cortar secciones innecesarias o momentos que no quedaron bien"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-informes-mensual-docentes-fsa-76760e6e",
+      "category": "Académico",
+      "title": "Informes mensual Docentes FSA",
+      "summary": "- Informe mensual de Danzas https://forms.gle/WKB8gZD5RuUNB2Dm6\n- Informe mensual de Teatro https://forms.gle/WL3Jo9dWEYjjbVLK9\n- Informe mensual de Dibujo (Artes plásticas) htt…",
+      "steps": [
+        "Informe mensual de Danzas https://forms.gle/WKB8gZD5RuUNB2Dm6",
+        "Informe mensual de Teatro https://forms.gle/WL3Jo9dWEYjjbVLK9",
+        "Informe mensual de Dibujo (Artes plásticas) https://forms.gle/5fsMFSmCvj7ewNZWA",
+        "Informe mensual de Porras https://forms.gle/s9tW69wTecuq98VX9"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Informes mensual Docentes FSA",
+          "Paso 1": "- Informe mensual de Danzas https://forms.gle/WKB8gZD5RuUNB2Dm6\n- Informe mensual de Teatro https://forms.gle/WL3Jo9dWEYjjbVLK9\n- Informe mensual de Dibujo (Artes plásticas) https://forms.gle/5fsMFSmCvj7ewNZWA\n- Informe mensual de Porras https://forms.gle/s9tW69wTecuq98VX9"
+        },
+        "links": [
+          "https://forms.gle/5fsMFSmCvj7ewNZWA",
+          "https://forms.gle/WKB8gZD5RuUNB2Dm6",
+          "https://forms.gle/WL3Jo9dWEYjjbVLK9",
+          "https://forms.gle/s9tW69wTecuq98VX9"
+        ]
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-inscripcion-estudiante-nuevo-81d9856e",
+      "category": "Académico",
+      "title": "Inscripción estudiante nuevo",
+      "summary": "Formulario, Crear carpeta (apuntes y tareas, lista de canciones, Acceso a Classroom, lista de canciones",
+      "steps": [
+        "Formulario, Crear carpeta (apuntes y tareas, lista de canciones, Acceso a Classroom, lista de canciones"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Inscripción estudiante nuevo",
+          "Paso 1": "Formulario, Crear carpeta (apuntes y tareas, lista de canciones, Acceso a Classroom, lista de canciones"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-protocolo-de-clase-6f2513dc",
+      "category": "Académico",
+      "title": "Protocolo de clase",
+      "summary": "Tener todas las herramientas a utilizar listas desde antes: instrumentos afinados, guías y partituras impresas, computador, tablet o celular cargado, sillas, atriles y demás ele…",
+      "steps": [
+        "Tener todas las herramientas a utilizar listas desde antes: instrumentos afinados, guías y partituras impresas, computador, tablet o celular cargado, sillas, atriles y demás elementos a usar listos",
+        "Hacer uso de todos los elementos y herramientas posibles en clase. esto ayuda en el dinamismo y entendimiento del estudiante para reconocer lo que pueden usar como apoyo para práctica en casa",
+        "Hacer uso siempre de material visual, guías impresas o digitales, siempre mostrarles todo de una manera visual para que cuando lo deban hacer solos sepan dónde encontrarlo y cómo entenderlo",
+        "Que el calentmiento y las explicaciones no sean tan largas, la idea es que el 80% de la clase sea usado para que ellos pueden tocar y practicar con el instrumento",
+        "Se debe trabajar canciones siempre en cada clase así sea un poco, y que el estudiante pueda ver el avance, si es una clase nueva, motivarlos y que se den cuenta que en una sola clase se puede también sacar canciones",
+        "Si un estudiante o varios llegan tarde o si ya ha transcurrido más de 30 minutos de una clase,sin que el estudiante haya tocado el instrumento enfocarse solamente en el Componente de Canciones y Técnico",
+        "Ya que el objetivo principal es acompañar su aprendizaje y que ellos se sientan bien incluso practicando en clase, si se puede acompañar con otros instrumentos como guitarras, pianos, baterías o cualquier otro, es mejor para dar una experiencia con otros sonidos e instrumentos, como si tuviéramos una banda con el profe para poder practicar hasta los ejercicios más sencillos",
+        "Estar pendiente del tiempo, no siempre una buena clase es aquella que se da de más, es decir no siempre es bueno pasarse, es más profesional optimizar el tiempo y comenzar y finalizar a tiempo, eso demuestra al estudiante que somos tan profesionales que sabemos hacer uso del tiempo de la clase sin que nos falte tiempo ni tampoco pasarnos de más"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Protocolo de clase",
+          "Paso 1": "Tener todas las herramientas a utilizar listas desde antes: instrumentos afinados, guías y partituras impresas, computador, tablet o celular cargado, sillas, atriles y demás elementos a usar listos",
+          "Paso 2": "Hacer uso de todos los elementos y herramientas posibles en clase. esto ayuda en el dinamismo y entendimiento del estudiante para reconocer lo que pueden usar como apoyo para práctica en casa",
+          "Paso 3": "Hacer uso siempre de material visual, guías impresas o digitales, siempre mostrarles todo de una manera visual para que cuando lo deban hacer solos sepan dónde encontrarlo y cómo entenderlo",
+          "Paso 4": "Que el calentmiento y las explicaciones no sean tan largas, la idea es que el 80% de la clase sea usado para que ellos pueden tocar y practicar con el instrumento",
+          "Paso 5": "Se debe trabajar canciones siempre en cada clase así sea un poco, y que el estudiante pueda ver el avance, si es una clase nueva, motivarlos y que se den cuenta que en una sola clase se puede también sacar canciones",
+          "Paso 6": "Si un estudiante o varios llegan tarde o si ya ha transcurrido más de 30 minutos de una clase,sin que el estudiante haya tocado el instrumento enfocarse solamente en el Componente de Canciones y Técnico",
+          "Paso 7": "Ya que el objetivo principal es acompañar su aprendizaje y que ellos se sientan bien incluso practicando en clase, si se puede acompañar con otros instrumentos como guitarras, pianos, baterías o cualquier otro, es mejor para dar una experiencia con otros sonidos e instrumentos, como si tuviéramos una banda con el profe para poder practicar hasta los ejercicios más sencillos",
+          "Paso 8": "Estar pendiente del tiempo, no siempre una buena clase es aquella que se da de más, es decir no siempre es bueno pasarse, es más profesional optimizar el tiempo y comenzar y finalizar a tiempo, eso demuestra al estudiante que somos tan profesionales que sabemos hacer uso del tiempo de la clase sin que nos falte tiempo ni tampoco pasarnos de más"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-protocolo-de-informe-fb7290dc",
+      "category": "Académico",
+      "title": "Protocolo de informe",
+      "summary": "Revisar apuntes y tareas",
+      "steps": [
+        "Revisar apuntes y tareas",
+        "Objetivos de experiencias",
+        "Pedir el concepto de los docentes que han trabajado con el estudiante"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Protocolo de informe",
+          "Paso 1": "Revisar apuntes y tareas",
+          "Paso 2": "Objetivos de experiencias",
+          "Paso 3": "Pedir el concepto de los docentes que han trabajado con el estudiante"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "academico-revisar-disponibilidad-docente-para-programar-o--9b35f745",
+      "category": "Académico",
+      "title": "revisar disponibilidad docente para programar o reprogramar",
+      "summary": "revisar horario solicitados y disciplinas artísticas",
+      "steps": [
+        "revisar horario solicitados y disciplinas artísticas",
+        "REVISAR SI ES HOGAR O SEDE",
+        "si es hogar revisar direccion en lista de docente de apoyo y equipod e trabajo",
+        "caso fortuito revisar disponibilidad de docentes líderes"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "revisar disponibilidad docente para programar o reprogramar",
+          "Paso 1": "revisar horario solicitados y disciplinas artísticas",
+          "Paso 2": "REVISAR SI ES HOGAR O SEDE",
+          "Paso 3": "si es hogar revisar direccion en lista de docente de apoyo y equipod e trabajo",
+          "Paso 4": "caso fortuito revisar disponibilidad de docentes líderes"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "administrativo-asignacion-de-clases-en-salones-de-sede-b52311b4",
+      "category": "Administrativo",
+      "title": "Asignación de clases en salones de sede",
+      "summary": "Se revisa el día y se asigna la clase con el formato",
+      "steps": [
+        "Se abre el archivo de HTML Horario Musicala 2025",
+        "Se revisa el día y se asigna la clase con el formato",
+        "(Modalidad) (Grupo) (Clase) - (Docente)",
+        "EJ: MS Musicalitos Piano - Andrea Suárez"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Contratación de nuevo cargo administrativo": "Asignación de clases en salones de sede",
+          "Diligenciar del formulario de vacantes": "Se abre el archivo de HTML Horario Musicala 2025",
+          "Enviarnos un video de por qué deberíamos tenerlo en el cargo": "Se revisa el día y se asigna la clase con el formato",
+          "Entrevista virtual (filtro 1)": "(Modalidad) (Grupo) (Clase) - (Docente)",
+          "Entrevista presencial (filtro 2)": "EJ: MS Musicalitos Piano - Andrea Suárez"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "administrativo-registro-de-jornada-a790f8b8",
+      "category": "Administrativo",
+      "title": "Registro de Jornada",
+      "summary": "Scan QR para hora de inicio pausa activa",
+      "steps": [
+        "Scan QR para hora de entrada",
+        "Scan QR para hora de inicio pausa activa",
+        "Scan QR para hora de fin pausa activa",
+        "Scan QR para hora de inicio almuerzo",
+        "Scan QR para hora de fin almuerzo",
+        "Scan QR para hora de salida"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Contratación de nuevo cargo administrativo": "Registro de Jornada",
+          "Diligenciar del formulario de vacantes": "Scan QR para hora de entrada",
+          "Enviarnos un video de por qué deberíamos tenerlo en el cargo": "Scan QR para hora de inicio pausa activa",
+          "Entrevista virtual (filtro 1)": "Scan QR para hora de fin pausa activa",
+          "Entrevista presencial (filtro 2)": "Scan QR para hora de inicio almuerzo",
+          "Reunión presencial de explicación contrato (filtro 3)": "Scan QR para hora de fin almuerzo",
+          "Envío de documentos, lectura y aprobación de contrato y exámenes médicos (filtro 4)": "Scan QR para hora de salida"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-abrir-ventanas-3433ef1c",
+      "category": "Apertura",
+      "title": "Abrir ventanas",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Abrir ventanas"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Abrir ventanas",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "Poner música ambiental"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-banos-limpios-6e601a88",
+      "category": "Apertura",
+      "title": "Baños limpios",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Baños limpios"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Baños limpios",
+          "Categoría": "Revisión general de espacios",
+          "Tarea": "Revisar todos los espacios"
+        },
+        "subcategory": "Revisión general de espacios"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-basuras-sin-rebosar-440cde7e",
+      "category": "Apertura",
+      "title": "Basuras sin rebosar",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Basuras sin rebosar"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Basuras sin rebosar",
+          "Categoría": "Ventilación y aseo",
+          "Tarea": "Toallas de manos disponibles"
+        },
+        "subcategory": "Ventilación y aseo"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-cerrar-puertas-de-los-salones-con-llave-625539aa",
+      "category": "Apertura",
+      "title": "Cerrar puertas de los salones con llave",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Cerrar puertas de los salones con llave"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Cerrar puertas de los salones con llave",
+          "Categoría": "Ventilación y aseo",
+          "Tarea": "Abrir ventanas"
+        },
+        "subcategory": "Ventilación y aseo"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-enchufes-desconectados-ab054df1",
+      "category": "Apertura",
+      "title": "Enchufes desconectados",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Enchufes desconectados"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Enchufes desconectados",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "Si no hay Chromecast, poner fotos desde USB"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-jabon-af76381b",
+      "category": "Apertura",
+      "title": "Jabón",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Jabón"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Jabón",
+          "Categoría": "Condiciones eléctricas",
+          "Tarea": "Enchufes desconectados innecesarios"
+        },
+        "subcategory": "Condiciones eléctricas"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-luces-apagadas-622eb435",
+      "category": "Apertura",
+      "title": "Luces apagadas",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Luces apagadas"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Luces apagadas",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "¿Tiene Chromecast?"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-musicafe-lleno-cc9f33c9",
+      "category": "Apertura",
+      "title": "Musicafé lleno",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Musicafé lleno"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Musicafé lleno",
+          "Categoría": "Ventilación y aseo",
+          "Tarea": "Baños limpios"
+        },
+        "subcategory": "Ventilación y aseo"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-no-haya-loza-sucia-847e5219",
+      "category": "Apertura",
+      "title": "No haya loza sucia",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "No haya loza sucia"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "No haya loza sucia",
+          "Categoría": "Ventilación y aseo",
+          "Tarea": "Papel higiénico suficiente"
+        },
+        "subcategory": "Ventilación y aseo"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-papel-higienico-908b0e05",
+      "category": "Apertura",
+      "title": "Papel higiénico",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Papel higiénico"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Papel higiénico",
+          "Categoría": "Revisión general de espacios",
+          "Tarea": "Reportar novedades"
+        },
+        "subcategory": "Revisión general de espacios"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-poner-musica-402fbc6e",
+      "category": "Apertura",
+      "title": "Poner música",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Poner música"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Poner música",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "Prender computador"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-poner-tapete-en-la-puerta-c0de9ef6",
+      "category": "Apertura",
+      "title": "Poner tapete en la puerta",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Poner tapete en la puerta"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Poner tapete en la puerta",
+          "Categoría": "Accesos y seguridad",
+          "Tarea": "Abrir puerta de la reja"
+        },
+        "subcategory": "Accesos y seguridad"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-prender-computador-386d3fd8",
+      "category": "Apertura",
+      "title": "Prender computador",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Prender computador"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Prender computador",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "Prender timbre y sistema de apertura de puerta"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-prender-extensiones-de-recepcion-6b0b13d1",
+      "category": "Apertura",
+      "title": "Prender extensiones de recepción",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Prender extensiones de recepción"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Prender extensiones de recepción",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "Poner tapete en la puerta"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-prender-timbre-y-puerta-0eecf368",
+      "category": "Apertura",
+      "title": "Prender timbre y puerta",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Prender timbre y puerta"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Prender timbre y puerta",
+          "Categoría": "Accesos y seguridad",
+          "Tarea": "Abrir puerta de recepción"
+        },
+        "subcategory": "Accesos y seguridad"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-prender-tv-si-no-esta-el-chromecast-poner-fotos--0c7fd435",
+      "category": "Apertura",
+      "title": "Prender tv (si no está el chromecast poner fotos desde la USB)",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Prender tv (si no está el chromecast poner fotos desde la USB)"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Prender tv (si no está el chromecast poner fotos desde la USB)",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "Prender extensiones de recepción"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-revisar-todos-los-espacios-y-reportar-novedades-75c8dd29",
+      "category": "Apertura",
+      "title": "Revisar todos los espacios y reportar novedades",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Revisar todos los espacios y reportar novedades"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Revisar todos los espacios y reportar novedades",
+          "Categoría": "Ambientación y tecnología",
+          "Tarea": "Prender TV"
+        },
+        "subcategory": "Ambientación y tecnología"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "apertura-toallas-de-manos-ffb19b4b",
+      "category": "Apertura",
+      "title": "Toallas de manos",
+      "summary": "Checklist de apertura (ítem)",
+      "steps": [
+        "Toallas de manos"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Abrir puerta de la reja y abrir puerta de recepción": "Toallas de manos",
+          "Categoría": "Condiciones eléctricas",
+          "Tarea": "Luces apagadas (solo necesarias encendidas)"
+        },
+        "subcategory": "Condiciones eléctricas"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-actualizar-horarios-de-cursos-grupales-4ddae047",
+      "category": "Atención al cliente y ventas",
+      "title": "Actualizar horarios de cursos grupales",
+      "summary": "Agregar el nuevo horario grupal en la página correspondiente al día",
+      "steps": [
+        "Agregar el nuevo horario grupal en la página correspondiente al día"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Actualizar horarios de cursos grupales",
+          "Atención Bot": "Agregar el nuevo horario grupal en la página correspondiente al día"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-alguien-que-no-esta-identificado-timbra-d35aed2f",
+      "category": "Atención al cliente y ventas",
+      "title": "Alguien que no está identificado timbra",
+      "summary": "boton intercom",
+      "steps": [
+        "boton intercom",
+        "Hola, cómo estás? Cuéntame cómo puedo ayudarte?",
+        "si no se escucha salir y preguntar personalmente antes de abrir la puerta,"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Alguien que no está identificado timbra",
+          "Atención Bot": "boton intercom",
+          "Si no responde el flujo Bot, se debe llamar": "Hola, cómo estás? Cuéntame cómo puedo ayudarte?",
+          "Sí no responde se escribe": "si no se escucha salir y preguntar personalmente antes de abrir la puerta,"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-canales-de-comunicacion-63a3d87c",
+      "category": "Atención al cliente y ventas",
+      "title": "Canales de comunicación",
+      "summary": "Mensajes pendientes de whatsapp en el grupo de Información por enviar",
+      "steps": [
+        "Mensajes pendientes de whatsapp en el grupo de Información por enviar",
+        "Mensajes sin responder y sin cierre de Whatsapp",
+        "Mensajes de Tiktok",
+        "Mensajes y comentarios de Keybe sin responder y sin cierre",
+        "Comentarios de redes sociales Insta / Fb ( Business Suite)"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Canales de comunicación",
+          "Atención Bot": "Mensajes pendientes de whatsapp en el grupo de Información por enviar",
+          "Si no responde el flujo Bot, se debe llamar": "Mensajes sin responder y sin cierre de Whatsapp",
+          "Sí no responde se escribe": "Mensajes de Tiktok",
+          "Sí no vuelve a escribir se llama nuevamente": "Mensajes y comentarios de Keybe sin responder y sin cierre",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "Comentarios de redes sociales Insta / Fb ( Business Suite)"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-clase-de-prueba-cortesia-2d6349ed",
+      "category": "Atención al cliente y ventas",
+      "title": "Clase de prueba/cortesía",
+      "summary": "Para ofrecer clase gratuita debe ser durante el espacio de tareas académicas de un profe contratado",
+      "steps": [
+        "Para ofrecer clase gratuita debe ser durante el espacio de tareas académicas de un profe contratado",
+        "Debe ser de los estilos, técnicas o instrumentos que manejen los docentes",
+        "Debe ser en sede",
+        "Si es para clase grupal, el grupo debe tener al menos 1 persona y ser docente contratado",
+        "Revisar costos en tabla de precios"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Clase de prueba/cortesía",
+          "Atención Bot": "Para ofrecer clase gratuita debe ser durante el espacio de tareas académicas de un profe contratado",
+          "Si no responde el flujo Bot, se debe llamar": "Debe ser de los estilos, técnicas o instrumentos que manejen los docentes",
+          "Sí no responde se escribe": "Debe ser en sede",
+          "Sí no vuelve a escribir se llama nuevamente": "Si es para clase grupal, el grupo debe tener al menos 1 persona y ser docente contratado",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "Revisar costos en tabla de precios"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-cliente-pregunta-por-los-horarios-de-clase-6524ad8f",
+      "category": "Atención al cliente y ventas",
+      "title": "Cliente pregunta por los horarios de clase",
+      "summary": "Revisar en el Manager en la sección de Horarios grupales",
+      "steps": [
+        "Revisar en el Manager en la sección de Horarios grupales",
+        "Revisar día y hora de los horarios disponibles"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Cliente pregunta por los horarios de clase",
+          "Atención Bot": "Revisar en el Manager en la sección de Horarios grupales",
+          "Si no responde el flujo Bot, se debe llamar": "Revisar día y hora de los horarios disponibles"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-crear-contacto-en-wix-d0d2116d",
+      "category": "Atención al cliente y ventas",
+      "title": "Crear contacto en Wix",
+      "summary": "Debe haber diligenciado el formualrio de inscripción",
+      "steps": [
+        "Debe haber diligenciado el formualrio de inscripción",
+        "WIX- contacto - crear- importar csv",
+        "base dato ( Estudnates musical)",
+        "descarga wix ( revisar ultimo dato)",
+        "agregar y pegar eso datos des el último registro en descarga wix"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Crear contacto en Wix",
+          "Atención Bot": "Debe haber diligenciado el formualrio de inscripción",
+          "Si no responde el flujo Bot, se debe llamar": "WIX- contacto - crear- importar csv",
+          "Sí no responde se escribe": "base dato ( Estudnates musical)",
+          "Sí no vuelve a escribir se llama nuevamente": "descarga wix ( revisar ultimo dato)",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "agregar y pegar eso datos des el último registro en descarga wix"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-crear-link-de-pago-en-bold-64e9bc7a",
+      "category": "Atención al cliente y ventas",
+      "title": "Crear link de pago en Bold",
+      "summary": "Abrir el perfil de Bold con el correo de Musicala Contabilidad",
+      "steps": [
+        "Abrir el perfil de Bold con el correo de Musicala Contabilidad",
+        "Ir a la pestaña Pagos en línea",
+        "Crear nuevo link",
+        "Agregar la información"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Crear link de pago en Bold",
+          "Atención Bot": "Abrir el perfil de Bold con el correo de Musicala Contabilidad",
+          "Si no responde el flujo Bot, se debe llamar": "Ir a la pestaña Pagos en línea",
+          "Sí no responde se escribe": "Crear nuevo link",
+          "Sí no vuelve a escribir se llama nuevamente": "Agregar la información"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-el-cliente-esta-interesado-y-pregunta-por-nuestr-3d4fb001",
+      "category": "Atención al cliente y ventas",
+      "title": "El cliente está interesado y pregunta por nuestras clases a domicilio",
+      "summary": "Venta de clases a Hogar / Domicilio",
+      "steps": [
+        "Venta de clases a Hogar / Domicilio",
+        "Se envía todo el flujo de venta inicial",
+        "Revisar si el cliente está en una zona en la que tengamos cobertura"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "": "Venta de clases a Hogar / Domicilio",
+          "Protocolo atención al cliente": "El cliente está interesado y pregunta por nuestras clases a domicilio",
+          "Atención Bot": "Se envía todo el flujo de venta inicial",
+          "Si no responde el flujo Bot, se debe llamar": "Revisar si el cliente está en una zona en la que tengamos cobertura"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-envio-de-archivos-por-wetransfer-560bf644",
+      "category": "Atención al cliente y ventas",
+      "title": "Envio de archivos por Wetransfer",
+      "summary": "Ingresar desde Google la aplicación de Wetransfer",
+      "steps": [
+        "Ingresar desde Google la aplicación de Wetransfer",
+        "Ingresar con las clases credenciales",
+        "Agregar Archivo o Carpeta",
+        "Buscar el Correo en la lista de estudiantes dependiendo del estudiante que desees compartir o preguntarle directamente a la acudiente",
+        "Agregar correo electronico,agregar titulo y mensaje"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Envio de archivos por Wetransfer",
+          "Atención Bot": "Ingresar desde Google la aplicación de Wetransfer",
+          "Si no responde el flujo Bot, se debe llamar": "Ingresar con las clases credenciales",
+          "Sí no responde se escribe": "Agregar Archivo o Carpeta",
+          "Sí no vuelve a escribir se llama nuevamente": "Buscar el Correo en la lista de estudiantes dependiendo del estudiante que desees compartir o preguntarle directamente a la acudiente",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "Agregar correo electronico,agregar titulo y mensaje"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-estudiante-no-vino-a-clase-porque-se-enfermo-un--2a0cc7b0",
+      "category": "Atención al cliente y ventas",
+      "title": "Estudiante no vino a clase porque se enfermó un familiar o conocido cercano (fuerza mayor)",
+      "summary": "Se revisa si ya ha se ha perdonado la clase de prmera vez",
+      "steps": [
+        "Se revisa si ya ha se ha perdonado la clase de prmera vez",
+        "Si no se le indica que no hay lío y se envía mensaje apoyo",
+        "Si ya la había tenido igualmente se registra como reprogramación entendiendo la situación",
+        "Si ha sido recurrente se revisa el caso para congelar las clases o indicar que ya no podemos seguir reprogramando las clases debido a la vigencia"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Estudiante no vino a clase porque se enfermó un familiar o conocido cercano (fuerza mayor)",
+          "Atención Bot": "Se revisa si ya ha se ha perdonado la clase de prmera vez",
+          "Si no responde el flujo Bot, se debe llamar": "Si no se le indica que no hay lío y se envía mensaje apoyo",
+          "Sí no responde se escribe": "Si ya la había tenido igualmente se registra como reprogramación entendiendo la situación",
+          "Sí no vuelve a escribir se llama nuevamente": "Si ha sido recurrente se revisa el caso para congelar las clases o indicar que ya no podemos seguir reprogramando las clases debido a la vigencia"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-mensaje-de-error-en-keybe-ad9915ed",
+      "category": "Atención al cliente y ventas",
+      "title": "Mensaje de error en Keybe",
+      "summary": "Enviar una captura de pantalla al grupo de Whatsapp con el título \"Falla Keybe\"",
+      "steps": [
+        "Enviar una captura de pantalla al grupo de Whatsapp con el título \"Falla Keybe\"",
+        "Volver a enviar el mensaje que tuvo error",
+        "Si persiste el error enviar otro mensaje diferente más corto"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Mensaje de error en Keybe",
+          "Atención Bot": "Enviar una captura de pantalla al grupo de Whatsapp con el título \"Falla Keybe\"",
+          "Si no responde el flujo Bot, se debe llamar": "Volver a enviar el mensaje que tuvo error",
+          "Sí no responde se escribe": "Si persiste el error enviar otro mensaje diferente más corto"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-mensajes-whatsapp-b7a6a1f7",
+      "category": "Atención al cliente y ventas",
+      "title": "Mensajes WhatsApp",
+      "summary": "Enviar sticker de (Buenas tardes, buenos días o buenas noches)",
+      "steps": [
+        "Enviar sticker de (Buenas tardes, buenos días o buenas noches)",
+        "Enviar imagen( Si aplica)",
+        "Texto"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Mensajes WhatsApp",
+          "Atención Bot": "Enviar sticker de (Buenas tardes, buenos días o buenas noches)",
+          "Si no responde el flujo Bot, se debe llamar": "Enviar imagen( Si aplica)",
+          "Sí no responde se escribe": "Texto"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-notas-de-voz-c16a18eb",
+      "category": "Atención al cliente y ventas",
+      "title": "Notas de Voz",
+      "summary": "Si hay gente en recepción, escuchar las notos de voz con audifonos",
+      "steps": [
+        "Si hay gente en recepción, escuchar las notos de voz con audifonos"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Notas de Voz",
+          "Atención Bot": "Si hay gente en recepción, escuchar las notos de voz con audifonos"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-pago-de-estudiante-c0077682",
+      "category": "Atención al cliente y ventas",
+      "title": "Pago de estudiante",
+      "summary": "Brindar info de paquetes",
+      "steps": [
+        "Brindar info de paquetes",
+        "Recibir el pago",
+        "Mandar el mensaje de \"Factura\" por WA",
+        "Crear suscripción en Wix",
+        "Realizar programación de clases"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Pago de estudiante",
+          "Atención Bot": "Brindar info de paquetes",
+          "Si no responde el flujo Bot, se debe llamar": "Recibir el pago",
+          "Sí no responde se escribe": "Mandar el mensaje de \"Factura\" por WA",
+          "Sí no vuelve a escribir se llama nuevamente": "Crear suscripción en Wix",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "Realizar programación de clases"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-pago-estudiante-antiguo-a0138a06",
+      "category": "Atención al cliente y ventas",
+      "title": "Pago estudiante antiguo",
+      "summary": "RIP hacer pago con el muñequito",
+      "steps": [
+        "RIP hacer pago con el muñequito",
+        "Poner información de pago quitando los filtros",
+        "Revisar información y dar chulito verde",
+        "Activar suscripción"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Pago estudiante antiguo",
+          "Atención Bot": "RIP hacer pago con el muñequito",
+          "Si no responde el flujo Bot, se debe llamar": "Poner información de pago quitando los filtros",
+          "Sí no responde se escribe": "Revisar información y dar chulito verde",
+          "Sí no vuelve a escribir se llama nuevamente": "Activar suscripción"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-programacion-en-dias-festivos-7318836b",
+      "category": "Atención al cliente y ventas",
+      "title": "Programación en días festivos",
+      "summary": "Enviar la programación completa sin el día festivo, en este caso no agendar la clase de esta semana",
+      "steps": [
+        "Enviar la programación completa sin el día festivo, en este caso no agendar la clase de esta semana",
+        "Enviar mensaje predeterminado de día Festivo",
+        "Esperar respuesta de estudiante para el día festivo y ofrecerle los horarios"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Programación en días festivos",
+          "Atención Bot": "Enviar la programación completa sin el día festivo, en este caso no agendar la clase de esta semana",
+          "Si no responde el flujo Bot, se debe llamar": "Enviar mensaje predeterminado de día Festivo",
+          "Sí no responde se escribe": "Esperar respuesta de estudiante para el día festivo y ofrecerle los horarios"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-programacion-hora-de-trabajo-2705042e",
+      "category": "Atención al cliente y ventas",
+      "title": "Programación (Hora de Trabajo)",
+      "summary": "Revisar pendientes en el calendario de programación o reprogramación de clases",
+      "steps": [
+        "Revisar pendientes en el calendario de programación o reprogramación de clases",
+        "Revisar en RIP nuevos pagos y verificar si ya se realizo la programacón de estos pagos",
+        "Verificar en WhatsApp programación de estudiantes o cambios necesarios"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Programación (Hora de Trabajo)",
+          "Atención Bot": "Revisar pendientes en el calendario de programación o reprogramación de clases",
+          "Si no responde el flujo Bot, se debe llamar": "Revisar en RIP nuevos pagos y verificar si ya se realizo la programacón de estos pagos",
+          "Sí no responde se escribe": "Verificar en WhatsApp programación de estudiantes o cambios necesarios"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-protocolo-cuando-avisan-si-un-estudiante-puede-q-a0a5e342",
+      "category": "Atención al cliente y ventas",
+      "title": "Protocolo cuando avisan si un estudiante puede quedarse por más tiempo en la sede",
+      "summary": "Se revisa qué tanto afecta que el niño se quede solo",
+      "steps": [
+        "Se revisa qué tanto afecta que el niño se quede solo",
+        "Se avisa al equipo que tendría que estar pendiente",
+        "Si es 1 hora o más se puede intentar ofrecer algún servicio en ese momento (clase)",
+        "Se le ofrece al acudiente",
+        "Si no quiere comprar, se le envía el mensaje predeterminado Excepción recogida estudiantes"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Protocolo cuando avisan si un estudiante puede quedarse por más tiempo en la sede",
+          "Atención Bot": "Se revisa qué tanto afecta que el niño se quede solo",
+          "Si no responde el flujo Bot, se debe llamar": "Se avisa al equipo que tendría que estar pendiente",
+          "Sí no responde se escribe": "Si es 1 hora o más se puede intentar ofrecer algún servicio en ese momento (clase)",
+          "Sí no vuelve a escribir se llama nuevamente": "Se le ofrece al acudiente",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "Si no quiere comprar, se le envía el mensaje predeterminado Excepción recogida estudiantes"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-protocolo-de-cambio-de-clases-en-la-programacion-7ca10709",
+      "category": "Atención al cliente y ventas",
+      "title": "Protocolo de cambio de clases en la programación",
+      "summary": "Realizar los cambios que la estudiante solicita verificando que cumplan con la vigencia del plan",
+      "steps": [
+        "Realizar los cambios que la estudiante solicita verificando que cumplan con la vigencia del plan",
+        "Enviar nueva programación con el mensaje predeterminado de la nueva programación"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Protocolo de cambio de clases en la programación",
+          "Atención Bot": "Realizar los cambios que la estudiante solicita verificando que cumplan con la vigencia del plan",
+          "Si no responde el flujo Bot, se debe llamar": "Enviar nueva programación con el mensaje predeterminado de la nueva programación"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-protocolo-de-cancelacion-de-clase-antes-de-las-3-aff3efb5",
+      "category": "Atención al cliente y ventas",
+      "title": "Protocolo de cancelación de clase antes de las 3 horas",
+      "summary": "Enviar mensaje de cancelación al docente",
+      "steps": [
+        "Enviar mensaje de cancelación al docente",
+        "Enviar mensaje al estudiante de reprogramación de la clase",
+        "Cancelar la clase de Wix",
+        "Reprogramar en el nuevo horario"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Protocolo de cancelación de clase antes de las 3 horas",
+          "Atención Bot": "Enviar mensaje de cancelación al docente",
+          "Si no responde el flujo Bot, se debe llamar": "Enviar mensaje al estudiante de reprogramación de la clase",
+          "Sí no responde se escribe": "Cancelar la clase de Wix",
+          "Sí no vuelve a escribir se llama nuevamente": "Reprogramar en el nuevo horario"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-protocolo-de-estudiantes-insatisfecho-o-conflict-d6e6edda",
+      "category": "Atención al cliente y ventas",
+      "title": "Protocolo de estudiantes insatisfecho o conflicto con compañeros",
+      "summary": "Primera respuesta con empatía\nObjetivo: Validar la emoción del cliente y agradecer la sinceridad.",
+      "steps": [
+        "Primera respuesta con empatía",
+        "Objetivo: Validar la emoción del cliente y agradecer la sinceridad.",
+        "2. Identificar el motivo de la deserción",
+        "Pregunta clave:",
+        "¿Nos podrías contar un poco más sobre lo que no cumplió tus expectativas?",
+        "Ofrecer canal de contacto directo (Principalmente Llamada)",
+        "Preguntas guía para la conversación durante llamada¿Qué era lo que esperaban al iniciar las clases con nosotros?",
+        "¿Qué aspectos sí les gustaron o sintieron que funcionaron bien?",
+        "¿Cómo fue exactamente el inconveniente con el compañero? ¿(Nombre del estudiante se sintió incómodo o inseguro?",
+        "¿Hubo algo que esperaban de parte nuestra (comunicación, seguimiento) que no se cumplió?",
+        "¿Qué cambios podrían motivarles a considerar continuar con nosotros en un futuro?",
+        "Ofrecer soluciones posiblesReubicación en otro grupo.",
+        "Cambio de profesor o modalidad.",
+        "Clase de cortesía con docente diferente.",
+        "Seguimiento personalizado para observar comportamiento de otros niños (en casos de conflictos)."
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Protocolo de estudiantes insatisfecho o conflicto con compañeros",
+          "Atención Bot": "Primera respuesta con empatía\nObjetivo: Validar la emoción del cliente y agradecer la sinceridad.",
+          "Si no responde el flujo Bot, se debe llamar": "2. Identificar el motivo de la deserción\nPregunta clave:\n\n¿Nos podrías contar un poco más sobre lo que no cumplió tus expectativas?",
+          "Sí no responde se escribe": "Ofrecer canal de contacto directo (Principalmente Llamada)",
+          "Sí no vuelve a escribir se llama nuevamente": "Preguntas guía para la conversación durante llamada¿Qué era lo que esperaban al iniciar las clases con nosotros?\n\n¿Qué aspectos sí les gustaron o sintieron que funcionaron bien?\n\n¿Cómo fue exactamente el inconveniente con el compañero? ¿(Nombre del estudiante se sintió incómodo o inseguro?\n\n¿Hubo algo que esperaban de parte nuestra (comunicación, seguimiento) que no se cumplió?\n\n¿Qué cambios podrían motivarles a considerar continuar con nosotros en un futuro?",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "Ofrecer soluciones posiblesReubicación en otro grupo.\n\nCambio de profesor o modalidad.\n\nClase de cortesía con docente diferente.\n\nSeguimiento personalizado para observar comportamiento de otros niños (en casos de conflictos)."
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-quejas-y-o-reclamos-sobre-clases-00463e03",
+      "category": "Atención al cliente y ventas",
+      "title": "Quejas y/o reclamos sobre clases",
+      "summary": "Responder con GPTo",
+      "steps": [
+        "Responder con GPTo",
+        "Escribir en el documento de retroalimentación del docente o persona",
+        "Mandar después de la siguiente clase una encuesta/pregunta sobre la mejora a su PQRS"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Quejas y/o reclamos sobre clases",
+          "Atención Bot": "Responder con GPTo",
+          "Si no responde el flujo Bot, se debe llamar": "Escribir en el documento de retroalimentación del docente o persona",
+          "Sí no responde se escribe": "Mandar después de la siguiente clase una encuesta/pregunta sobre la mejora a su PQRS"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "atencion-al-cliente-y-ventas-revision-de-horario-dia-previo-estudiantes-rip-w-6493f923",
+      "category": "Atención al cliente y ventas",
+      "title": "Revisión de horario día previo(estudiantes RIP, Wix)",
+      "summary": "Enviar recordatorio de las clases por WA",
+      "steps": [
+        "Enviar recordatorio de las clases por WA",
+        "Se realiza revisión del estudiante en WIX (suscripción activa ( si no está activa vender plan , revisarn en rip que plan es) , sesiones previas canjeadas y programación)",
+        "Revisar que el RIP concuerden las clases con WIX",
+        "Revisar que tengan factura y programación en WA",
+        "( si no coincide en wix hacer la correción en hoja de calculo RIP MUSICALA 2025 > REGISTRO 2025"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo atención al cliente": "Revisión de horario día previo(estudiantes RIP, Wix)",
+          "Atención Bot": "Enviar recordatorio de las clases por WA",
+          "Si no responde el flujo Bot, se debe llamar": "Se realiza revisión del estudiante en WIX (suscripción activa ( si no está activa vender plan , revisarn en rip que plan es) , sesiones previas canjeadas y programación)",
+          "Sí no responde se escribe": "Revisar que el RIP concuerden las clases con WIX",
+          "Sí no vuelve a escribir se llama nuevamente": "Revisar que tengan factura y programación en WA",
+          "Sí no se recibe respuesta se procede a agregar a la base de datos para futuro contacto": "( si no coincide en wix hacer la correción en hoja de calculo RIP MUSICALA 2025 > REGISTRO 2025"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-agendamiento-de-clase-hogar-a-domicilio-1c88cfb5",
+      "category": "Clases",
+      "title": "Agendamiento de clase Hogar / a Domicilio",
+      "summary": "Agendamiento",
+      "steps": [
+        "Pedir dirección exacta para saber en dónde queda",
+        "Revisar Docentes de apoyo disponibles cerca a la zona",
+        "Revisar en la lista de Docentes, si hay docentes líderes o de apoyo (Instrumento o area) para saber quién puede realizar la clase",
+        "Revisar disponibilidad si no esta el horario que dijo el estudiante, verficar el horario más cercano e indicarle al estudiante",
+        "En caso de que se agende la clase con otro Docente, avisarle por medio de whatsApp ( Si es con menos de 3 días de anticipación) e informrle Area. nombre y edad"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Categoría": "Agendamiento",
+          "Protocolo": "Agendamiento de clase Hogar / a Domicilio",
+          "Paso 1": "Pedir dirección exacta para saber en dónde queda",
+          "Paso 2": "Revisar Docentes de apoyo disponibles cerca a la zona",
+          "Paso 3": "Revisar en la lista de Docentes, si hay docentes líderes o de apoyo (Instrumento o area) para saber quién puede realizar la clase",
+          "Paso 4": "Revisar disponibilidad si no esta el horario que dijo el estudiante, verficar el horario más cercano e indicarle al estudiante",
+          "Paso 5": "En caso de que se agende la clase con otro Docente, avisarle por medio de whatsApp ( Si es con menos de 3 días de anticipación) e informrle Area. nombre y edad"
+        },
+        "subcategory": "Agendamiento"
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-agendamiento-de-clases-en-sede-f43bc454",
+      "category": "Clases",
+      "title": "Agendamiento de clases en Sede",
+      "summary": "Revisar Docentes disponibles en caso del que docente Lider no tenga disponiblidad",
+      "steps": [
+        "Revisar Docentes disponibles en caso del que docente Lider no tenga disponiblidad",
+        "Revisar en la lista de Docentes (Instrumento o area) para que pueda realizar la clase",
+        "Revisar disponibilidad si no esta el horario que dijo el estudiante, verficar el horario más cercano e indicarle al estudiante",
+        "En caso de que se agende la clase con otro Docente, avisarle por medio de whatsApp ( Si es con menos de 3 días de anticipación) e informrle Area. nombre y edad",
+        "Realizar el agendamiento en Wix y confirmar la clase con el estudiante con fecha día y hora"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Agendamiento de clases en Sede",
+          "Paso 1": "Revisar Docentes disponibles en caso del que docente Lider no tenga disponiblidad",
+          "Paso 2": "Revisar en la lista de Docentes (Instrumento o area) para que pueda realizar la clase",
+          "Paso 3": "Revisar disponibilidad si no esta el horario que dijo el estudiante, verficar el horario más cercano e indicarle al estudiante",
+          "Paso 4": "En caso de que se agende la clase con otro Docente, avisarle por medio de whatsApp ( Si es con menos de 3 días de anticipación) e informrle Area. nombre y edad",
+          "Paso 5": "Realizar el agendamiento en Wix y confirmar la clase con el estudiante con fecha día y hora"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-cambio-de-direccion-de-una-clase-con-menos-de-3--80b87327",
+      "category": "Clases",
+      "title": "Cambio de Dirección de una clase con menos de 3 horas de anticipación",
+      "summary": "Informarle al Docente encargado de la clase sobre el cambio de dirección",
+      "steps": [
+        "Informarle al Docente encargado de la clase sobre el cambio de dirección",
+        "Realizar llamada a Docente en caso de que no conteste los mensajes",
+        "Depende de la respuesta del Docente comunicarle a la acudiente",
+        "En caso de que no sea posible se ofrece de manera virtual o se toma la clase como realizada"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Cambio de Dirección de una clase con menos de 3 horas de anticipación",
+          "Paso 1": "Informarle al Docente encargado de la clase sobre el cambio de dirección",
+          "Paso 2": "Realizar llamada a Docente en caso de que no conteste los mensajes",
+          "Paso 3": "Depende de la respuesta del Docente comunicarle a la acudiente",
+          "Paso 4": "En caso de que no sea posible se ofrece de manera virtual o se toma la clase como realizada"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-cancelacion-de-clase-por-parte-del-estudiante-8da1f2ba",
+      "category": "Clases",
+      "title": "Cancelación de clase por parte del estudiante",
+      "summary": "Enviar mensaje de lamentamos al estudiante",
+      "steps": [
+        "Enviar mensaje de lamentamos al estudiante",
+        "Preguntar si es posible tomar la clase en otro horario ese mismo día o en esa semana",
+        "Reprogramar o cancelar la clase en Wix según la respuesta",
+        "Si el grupo queda vacío o si era personalizada, informar al profe que tiene a esa hora"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Cancelación de clase por parte del estudiante",
+          "Paso 1": "Enviar mensaje de lamentamos al estudiante",
+          "Paso 2": "Preguntar si es posible tomar la clase en otro horario ese mismo día o en esa semana",
+          "Paso 3": "Reprogramar o cancelar la clase en Wix según la respuesta",
+          "Paso 4": "Si el grupo queda vacío o si era personalizada, informar al profe que tiene a esa hora"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-docente-fsa-no-puede-llegar-a-la-sesion-debido-a-eba3d3d8",
+      "category": "Clases",
+      "title": "Docente FSA no puede llegar a la sesión debido a enfermedad y nos avisa con menos de 3 horas de anticipacón",
+      "summary": "Regaño por no avisarnos a tiempo y solicitud de un docente de reemplazo",
+      "steps": [
+        "Regaño por no avisarnos a tiempo y solicitud de un docente de reemplazo",
+        "Escribir a docentes de reemplazo que vivan cerca al Centro",
+        "Una vez nos confirme el docente o docente de reemplazo escribir a los demás para cancelar",
+        "Avisar a la líder del centro",
+        "Solicitar planeación"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Docente FSA no puede llegar a la sesión debido a enfermedad y nos avisa con menos de 3 horas de anticipacón",
+          "Paso 1": "Regaño por no avisarnos a tiempo y solicitud de un docente de reemplazo",
+          "Paso 2": "Escribir a docentes de reemplazo que vivan cerca al Centro",
+          "Paso 3": "Una vez nos confirme el docente o docente de reemplazo escribir a los demás para cancelar",
+          "Paso 4": "Avisar a la líder del centro",
+          "Paso 5": "Solicitar planeación"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-docente-fsa-nos-diga-que-no-hay-clase-o-no-llego-a8077ed5",
+      "category": "Clases",
+      "title": "Docente FSA nos diga que no hay clase o no llego nadie al grupo",
+      "summary": "Comentarle al lider la situación y verificar si lo necesita para algo o ya se puede retirar del centro",
+      "steps": [
+        "Comentarle al lider la situación y verificar si lo necesita para algo o ya se puede retirar del centro",
+        "Comentarles la respuesta del lider a la Docente"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Docente FSA nos diga que no hay clase o no llego nadie al grupo",
+          "Paso 1": "Comentarle al lider la situación y verificar si lo necesita para algo o ya se puede retirar del centro",
+          "Paso 2": "Comentarles la respuesta del lider a la Docente"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-docente-se-encuentra-enfermo-y-no-puede-asistir--4378bb0e",
+      "category": "Clases",
+      "title": "Docente se encuentra enfermo y no puede asistir a una clase",
+      "summary": "Enviar mensaje de protocolo por enfermedad",
+      "steps": [
+        "Enviar mensaje de protocolo por enfermedad",
+        "Enviar mensaje de reemplazo, planeación y apuntes y tareas actualizados"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Docente se encuentra enfermo y no puede asistir a una clase",
+          "Paso 1": "Enviar mensaje de protocolo por enfermedad",
+          "Paso 2": "Enviar mensaje de reemplazo, planeación y apuntes y tareas actualizados"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-el-docente-avisa-que-va-a-llegar-tarde-95f04f6d",
+      "category": "Clases",
+      "title": "El docente avisa que va a llegar tarde",
+      "summary": "Enviar mensaje de seguimiento",
+      "steps": [
+        "Enviar mensaje de seguimiento",
+        "Esperar respuesta para conocer a qué hora llega el docente",
+        "Avisar al estudiante sobre la tardanza si es superior a 15 minutos o avisar en sede cuando sea el caso apenas lleguen"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "El docente avisa que va a llegar tarde",
+          "Paso 1": "Enviar mensaje de seguimiento",
+          "Paso 2": "Esperar respuesta para conocer a qué hora llega el docente",
+          "Paso 3": "Avisar al estudiante sobre la tardanza si es superior a 15 minutos o avisar en sede cuando sea el caso apenas lleguen"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-incapacidad-de-un-docente-e5ea7326",
+      "category": "Clases",
+      "title": "Incapacidad de un Docente",
+      "summary": "Enviar mensaje de lamentamos la situación y de apoyo",
+      "steps": [
+        "Enviar mensaje de lamentamos la situación y de apoyo",
+        "Reagendar las clases( En caso de clases personalizadas enviar el mensaje predeterminado y verificar con que docente es posibel realizar) en caso de las grupales buscar docente de reemplazo",
+        "Bloquear días de incapacidad en Wix",
+        "Subir la incapacidad a novedades de nomina"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Incapacidad de un Docente",
+          "Paso 1": "Enviar mensaje de lamentamos la situación y de apoyo",
+          "Paso 2": "Reagendar las clases( En caso de clases personalizadas enviar el mensaje predeterminado y verificar con que docente es posibel realizar) en caso de las grupales buscar docente de reemplazo",
+          "Paso 3": "Bloquear días de incapacidad en Wix",
+          "Paso 4": "Subir la incapacidad a novedades de nomina"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-llega-servicio-no-solicitado-el-dia-sabado-ffb12911",
+      "category": "Clases",
+      "title": "Llega servicio no solicitado el día  Sábado",
+      "summary": "No se recibe ningun servicio que no se haya solicitado a menos de que sea algp urgente o se haya avisado con tiempo",
+      "steps": [
+        "No se recibe ningun servicio que no se haya solicitado a menos de que sea algp urgente o se haya avisado con tiempo"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Llega servicio no solicitado el día  Sábado",
+          "Paso 1": "No se recibe ningun servicio que no se haya solicitado a menos de que sea algp urgente o se haya avisado con tiempo"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-no-hay-docentes-actuales-que-puedan-cubrir-una-c-5b7664dc",
+      "category": "Clases",
+      "title": "No hay docentes actuales que puedan cubrir una clase",
+      "summary": "Revisar si haciendo cambios se puede asignar algún docente actual",
+      "steps": [
+        "Revisar si haciendo cambios se puede asignar algún docente actual",
+        "Revisar si los docentes que han sido reemplazos se pueden asignar",
+        "Buscar docente nuevo"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "No hay docentes actuales que puedan cubrir una clase",
+          "Paso 1": "Revisar si haciendo cambios se puede asignar algún docente actual",
+          "Paso 2": "Revisar si los docentes que han sido reemplazos se pueden asignar",
+          "Paso 3": "Buscar docente nuevo"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-reemplazo-para-componente-12a9926b",
+      "category": "Clases",
+      "title": "Reemplazo para componente",
+      "summary": "Avisar a los lideres sobre los sucedido y enviarle la información sobre el docente de Reemplazo",
+      "steps": [
+        "Avisar a los lideres sobre los sucedido y enviarle la información sobre el docente de Reemplazo",
+        "En caso de que hayan grupos con papitos avisarles  ( solo aplica para GMMC por el momento)",
+        "Solicitar la planeación a la docente y enviarsela a la Docente de reemplazo",
+        "Enviar la información al lider( contacto fsa) sobre el reemplazo y quien lo realizaría ( perfil del docente) y motivo de porqué la persona nopudo asistir"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Reemplazo para componente",
+          "Paso 1": "Avisar a los lideres sobre los sucedido y enviarle la información sobre el docente de Reemplazo",
+          "Paso 2": "En caso de que hayan grupos con papitos avisarles  ( solo aplica para GMMC por el momento)",
+          "Paso 3": "Solicitar la planeación a la docente y enviarsela a la Docente de reemplazo",
+          "Paso 4": "Enviar la información al lider( contacto fsa) sobre el reemplazo y quien lo realizaría ( perfil del docente) y motivo de porqué la persona nopudo asistir"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-tema-de-horas-de-componente-nuevo-componente-que-703f013a",
+      "category": "Clases",
+      "title": "tema de horas, de componente nuevo, componente que se quita (como generalidad) de los Centros FSA",
+      "summary": "Comentarle la situación al Coordinador Mario y esperar la respuesta",
+      "steps": [
+        "Comentarle la situación al Coordinador Mario y esperar la respuesta"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "tema de horas, de componente nuevo, componente que se quita (como generalidad) de los Centros FSA",
+          "Paso 1": "Comentarle la situación al Coordinador Mario y esperar la respuesta"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "clases-trabajador-enfermo-8f1831ee",
+      "category": "Clases",
+      "title": "Trabajador enfermo",
+      "summary": "Protocolo para Ausencias por Enfermedad\n1. Comunicación Inmediata\nEl trabajador debe informar sobre su estado de salud lo antes posible, utilizando los medios oficiales establec…",
+      "steps": [
+        "Protocolo para Ausencias por Enfermedad",
+        "1. Comunicación Inmediata",
+        "El trabajador debe informar sobre su estado de salud lo antes posible, utilizando los medios oficiales establecidos por la empresa (llamada telefónica, mensaje o correo electrónico al supervisor o al departamento de Recursos Humanos).",
+        "El aviso debe realizarse al menos con 2-3 horas de antelación al inicio de su jornada laboral, siempre que la situación lo permita.",
+        "En el mensaje, se debe incluir:",
+        "Nombre completo y puesto.",
+        "Descripción breve de la razón de la ausencia (sin necesidad de entrar en detalles específicos).",
+        "Estimación de la duración de la ausencia (si es conocida).",
+        "2. Evaluación del Estado de Salud del Trabajador",
+        "Para determinar la gravedad de la situación y las acciones necesarias, se le harán al trabajador las siguientes preguntas:",
+        "¿Cómo describirías tu malestar? (Ejemplo: leve, moderado, fuerte, con síntomas específicos como fiebre, dolor intenso, etc.)",
+        "¿Crees que es necesario acudir a un médico hoy mismo para evaluar tu estado de salud?",
+        "¿Tienes síntomas que podrían ser contagiosos para tus compañeros de trabajo?",
+        "¿Consideras que podrías trabajar desde casa hoy o en los próximos días?",
+        "¿Prefieres tomar el día completo para descansar y recuperarte?",
+        "¿Has tomado algún medicamento o tratamiento para aliviar los síntomas?",
+        "¿Tienes alguna idea de lo que pudo haber causado tu malestar?",
+        "¿Cuánto tiempo estimas que podrías necesitar para recuperarte?",
+        "¿Necesitas ayuda para coordinar tus tareas o responsabilidades mientras te encuentras ausente?",
+        "¿Hay algo más que la empresa pueda hacer para ayudarte durante tu recuperación?",
+        "3. Medidas para el Cuidado de la Salud",
+        "Se recomienda al trabajador tomar las siguientes medidas para priorizar su recuperación:",
+        "Pedir una cita médica lo antes posible para recibir una evaluación adecuada y un posible tratamiento.",
+        "Tomar medicamentos conocidos que puedan aliviar sus síntomas, siempre y cuando esté seguro de lo que necesita, pero sin automedicarse ni autodiagnosticarse.",
+        "Reflexionar sobre las posibles causas de su malestar, considerando si alguna circunstancia laboral, personal o ambiental podría haber influido en su estado de salud.",
+        "4. Propuesta de Soluciones Temporales",
+        "Se solicita al trabajador que considere, en la medida de lo posible, alguna solución temporal para la continuidad de su trabajo mientras se encuentra ausente. A continuación, algunas opciones que pueden ser de ayuda:",
+        "Trabajo remoto: Si su estado de salud se lo permite, evaluar la posibilidad de realizar sus tareas desde casa, ya sea en el horario habitual o en un horario más flexible.",
+        "Delegación de tareas: Identificar tareas urgentes o críticas que puedan ser temporalmente delegadas a un compañero de equipo.",
+        "Actualización de estado del trabajo: Proporcionar una actualización clara y detallada sobre el estado de sus proyectos o responsabilidades actuales para que otros puedan continuar con el trabajo si es necesario.",
+        "Reprogramación de tareas no urgentes: Informar sobre aquellas actividades que pueden ser postergadas hasta su retorno, asegurando que no se afecte la continuidad del negocio.",
+        "Documentación de procesos: Enviar cualquier documentación relevante o procedimientos que otros miembros del equipo puedan necesitar para cubrir sus funciones durante su ausencia.",
+        "Otras soluciones: Si el trabajador tiene alguna otra propuesta que considere viable para mantener la productividad del equipo mientras se recupera, se le anima a compartirla con su supervisor o Recursos Humanos.",
+        "Mantener comunicación abierta con el equipo para informar sobre el progreso de su salud y posibles fechas de retorno, así como para evaluar continuamente las soluciones implementadas y realizar ajustes si es necesario.",
+        "5. Confirmación y Seguimiento",
+        "El supervisor o el departamento de Recursos Humanos debe confirmar la recepción de la notificación de la ausencia.",
+        "Si la ausencia se prolonga más de dos días, se podrá solicitar un certificado médico que justifique la incapacidad para trabajar.",
+        "Se espera que el empleado mantenga informado a la empresa sobre cualquier cambio significativo en su condición de salud.",
+        "6. Retorno al Trabajo",
+        "Antes de reincorporarse, el trabajador debe asegurarse de estar en condiciones óptimas para realizar sus tareas y, si es necesario, presentar un certificado médico que indique que está apto para volver.",
+        "En caso de que necesite algún ajuste en sus tareas al reincorporarse, debe comunicarlo para facilitar su regreso gradual y seguro al trabajo.",
+        "7. Confidencialidad y Bienestar del Trabajador",
+        "Toda la información relacionada con la salud del trabajador será tratada con total confidencialidad y de acuerdo con las normativas de privacidad vigentes.",
+        "La empresa reafirma su compromiso de apoyar al empleado en su proceso de recuperación, promoviendo un ambiente de trabajo seguro y saludable.",
+        "Consideraciones Finales",
+        "Si los síntomas son graves o hay necesidad de atención médica inmediata, se le sugerirá al trabajador que se tome el día completo para acudir al médico y descansar, sin preocuparse por el trabajo.",
+        "Si los síntomas son leves y la persona se siente capaz de trabajar desde casa, se puede coordinar un horario flexible para que realice sus tareas remotamente.",
+        "Si el malestar es moderado pero se espera que mejore con descanso, se sugiere que tome el día para recuperarse y vuelva al trabajo cuando esté en mejores condiciones.",
+        "La empresa está comprometida a fomentar un enfoque comprensivo y humano ante las ausencias por enfermedad, priorizando siempre el bienestar y la salud de sus colaboradores.",
+        "Se invita a todos los trabajadores a seguir este protocolo para facilitar la organización interna y mantener un entorno laboral saludable y colaborativo."
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Protocolo": "Trabajador enfermo",
+          "Paso 1": "Protocolo para Ausencias por Enfermedad\n1. Comunicación Inmediata\nEl trabajador debe informar sobre su estado de salud lo antes posible, utilizando los medios oficiales establecidos por la empresa (llamada telefónica, mensaje o correo electrónico al supervisor o al departamento de Recursos Humanos).\nEl aviso debe realizarse al menos con 2-3 horas de antelación al inicio de su jornada laboral, siempre que la situación lo permita.\nEn el mensaje, se debe incluir:\nNombre completo y puesto.\nDescripción breve de la razón de la ausencia (sin necesidad de entrar en detalles específicos).\nEstimación de la duración de la ausencia (si es conocida).\n2. Evaluación del Estado de Salud del Trabajador\nPara determinar la gravedad de la situación y las acciones necesarias, se le harán al trabajador las siguientes preguntas:\n\n¿Cómo describirías tu malestar? (Ejemplo: leve, moderado, fuerte, con síntomas específicos como fiebre, dolor intenso, etc.)\n¿Crees que es necesario acudir a un médico hoy mismo para evaluar tu estado de salud?\n¿Tienes síntomas que podrían ser contagiosos para tus compañeros de trabajo?\n¿Consideras que podrías trabajar desde casa hoy o en los próximos días?\n¿Prefieres tomar el día completo para descansar y recuperarte?\n¿Has tomado algún medicamento o tratamiento para aliviar los síntomas?\n¿Tienes alguna idea de lo que pudo haber causado tu malestar?\n¿Cuánto tiempo estimas que podrías necesitar para recuperarte?\n¿Necesitas ayuda para coordinar tus tareas o responsabilidades mientras te encuentras ausente?\n¿Hay algo más que la empresa pueda hacer para ayudarte durante tu recuperación?\n3. Medidas para el Cuidado de la Salud\nSe recomienda al trabajador tomar las siguientes medidas para priorizar su recuperación:\nPedir una cita médica lo antes posible para recibir una evaluación adecuada y un posible tratamiento.\nTomar medicamentos conocidos que puedan aliviar sus síntomas, siempre y cuando esté seguro de lo que necesita, pero sin automedicarse ni autodiagnosticarse.\nReflexionar sobre las posibles causas de su malestar, considerando si alguna circunstancia laboral, personal o ambiental podría haber influido en su estado de salud.\n4. Propuesta de Soluciones Temporales\nSe solicita al trabajador que considere, en la medida de lo posible, alguna solución temporal para la continuidad de su trabajo mientras se encuentra ausente. A continuación, algunas opciones que pueden ser de ayuda:\n\nTrabajo remoto: Si su estado de salud se lo permite, evaluar la posibilidad de realizar sus tareas desde casa, ya sea en el horario habitual o en un horario más flexible.\nDelegación de tareas: Identificar tareas urgentes o críticas que puedan ser temporalmente delegadas a un compañero de equipo.\nActualización de estado del trabajo: Proporcionar una actualización clara y detallada sobre el estado de sus proyectos o responsabilidades actuales para que otros puedan continuar con el trabajo si es necesario.\nReprogramación de tareas no urgentes: Informar sobre aquellas actividades que pueden ser postergadas hasta su retorno, asegurando que no se afecte la continuidad del negocio.\nDocumentación de procesos: Enviar cualquier documentación relevante o procedimientos que otros miembros del equipo puedan necesitar para cubrir sus funciones durante su ausencia.\nOtras soluciones: Si el trabajador tiene alguna otra propuesta que considere viable para mantener la productividad del equipo mientras se recupera, se le anima a compartirla con su supervisor o Recursos Humanos.\n\nMantener comunicación abierta con el equipo para informar sobre el progreso de su salud y posibles fechas de retorno, así como para evaluar continuamente las soluciones implementadas y realizar ajustes si es necesario.\n\n5. Confirmación y Seguimiento\nEl supervisor o el departamento de Recursos Humanos debe confirmar la recepción de la notificación de la ausencia.\nSi la ausencia se prolonga más de dos días, se podrá solicitar un certificado médico que justifique la incapacidad para trabajar.\nSe espera que el empleado mantenga informado a la empresa sobre cualquier cambio significativo en su condición de salud.\n6. Retorno al Trabajo\nAntes de reincorporarse, el trabajador debe asegurarse de estar en condiciones óptimas para realizar sus tareas y, si es necesario, presentar un certificado médico que indique que está apto para volver.\nEn caso de que necesite algún ajuste en sus tareas al reincorporarse, debe comunicarlo para facilitar su regreso gradual y seguro al trabajo.\n7. Confidencialidad y Bienestar del Trabajador\nToda la información relacionada con la salud del trabajador será tratada con total confidencialidad y de acuerdo con las normativas de privacidad vigentes.\nLa empresa reafirma su compromiso de apoyar al empleado en su proceso de recuperación, promoviendo un ambiente de trabajo seguro y saludable.\nConsideraciones Finales\nSi los síntomas son graves o hay necesidad de atención médica inmediata, se le sugerirá al trabajador que se tome el día completo para acudir al médico y descansar, sin preocuparse por el trabajo.\n\nSi los síntomas son leves y la persona se siente capaz de trabajar desde casa, se puede coordinar un horario flexible para que realice sus tareas remotamente.\n\nSi el malestar es moderado pero se espera que mejore con descanso, se sugiere que tome el día para recuperarse y vuelva al trabajo cuando esté en mejores condiciones.\n\nLa empresa está comprometida a fomentar un enfoque comprensivo y humano ante las ausencias por enfermedad, priorizando siempre el bienestar y la salud de sus colaboradores.\n\nSe invita a todos los trabajadores a seguir este protocolo para facilitar la organización interna y mantener un entorno laboral saludable y colaborativo."
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "contabilidad-nuevo-pago-824e8789",
+      "category": "Contabilidad",
+      "title": "Nuevo pago",
+      "summary": "Formulario de inscripción",
+      "steps": [
+        "Formulario de inscripción",
+        "Confirmar pago",
+        "Revisión de los datos de la inscripción",
+        "Suscripción Wix"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Cierre de mes contable": "Nuevo pago",
+          "Subir cuentas de cobro": "Formulario de inscripción",
+          "Novedades de nómina": "Confirmar pago",
+          "Revisión de facturas": "Revisión de los datos de la inscripción",
+          "Realizar y subir pagos y facturas de compras": "Suscripción Wix"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "contabilidad-pago-bold-nequi-pse-tarjeta-debito-credito-9664a8dd",
+      "category": "Contabilidad",
+      "title": "Pago Bold ( nequi, pse, tarjeta débito, crédito)",
+      "summary": "se trata de que sea por pago QR ( TRANSFERENCIA)",
+      "steps": [
+        "se trata de que sea por pago QR ( TRANSFERENCIA)",
+        "prender el datáfono ( smart con forro plástico)",
+        "sin impuesto",
+        "sin propina",
+        "continuar",
+        "contacto tarjeta o pin",
+        "# cel para comprobante de pago"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Cierre de mes contable": "Pago Bold ( nequi, pse, tarjeta débito, crédito)",
+          "Subir cuentas de cobro": "se trata de que sea por pago QR ( TRANSFERENCIA)",
+          "Novedades de nómina": "prender el datáfono ( smart con forro plástico)",
+          "Revisión de facturas": "sin impuesto",
+          "Realizar y subir pagos y facturas de compras": "sin propina",
+          "Actualizar seguimiento de egresos": "continuar",
+          "Actualizar flujo de caja": "contacto tarjeta o pin",
+          "Extractos bancarios": "# cel para comprobante de pago"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "contabilidad-pago-efectivo-ee34bfae",
+      "category": "Contabilidad",
+      "title": "PAGO EFECTIVO",
+      "summary": "Verficar precios RIP",
+      "steps": [
+        "Verficar precios RIP",
+        "Contar  y guardar en caja",
+        "en rip ( drive macro)",
+        "mandar mensaje de factura por wp a a persona que paga(para registro fecha)",
+        "comprobante"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Cierre de mes contable": "PAGO EFECTIVO",
+          "Subir cuentas de cobro": "Verficar precios RIP",
+          "Novedades de nómina": "Contar  y guardar en caja",
+          "Revisión de facturas": "en rip ( drive macro)",
+          "Realizar y subir pagos y facturas de compras": "mandar mensaje de factura por wp a a persona que paga(para registro fecha)",
+          "Actualizar seguimiento de egresos": "comprobante"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "contabilidad-recibir-pago-en-sede-cfa32496",
+      "category": "Contabilidad",
+      "title": "Recibir pago en Sede",
+      "summary": "Confirmar canal de pago",
+      "steps": [
+        "Confirmar canal de pago",
+        "Revisar si se realiza de manera virtual  o física",
+        "Recibir pago",
+        "Registrar en RIP",
+        "Activar la suscripción en wix",
+        "Enviar programación y fecha se vigencia plan",
+        "Enviar factura WIX"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Cierre de mes contable": "Recibir pago en Sede",
+          "Subir cuentas de cobro": "Confirmar canal de pago",
+          "Novedades de nómina": "Revisar si se realiza de manera virtual  o física",
+          "Revisión de facturas": "Recibir pago",
+          "Realizar y subir pagos y facturas de compras": "Registrar en RIP",
+          "Actualizar seguimiento de egresos": "Activar la suscripción en wix",
+          "Actualizar flujo de caja": "Enviar programación y fecha se vigencia plan",
+          "Extractos bancarios": "Enviar factura WIX"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "documentos-wix-suscripcion-1cd654f4",
+      "category": "Documentos",
+      "title": "Wix - Suscripción",
+      "summary": "Clases",
+      "steps": [
+        "Clases",
+        "RIP",
+        "Wix - Registro de clases",
+        "Programación"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Financiero": "Clases",
+          "RIP": "RIP",
+          "Flujo de caja": "Wix - Suscripción",
+          "Seguimiento de egresos": "Wix - Registro de clases",
+          "Plan financiero": "Programación"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "generales-cliente-no-ha-tomado-clases-o-esta-inactivo-1aaf03f8",
+      "category": "Generales",
+      "title": "Cliente no ha tomado clases o está inactivo",
+      "summary": "Cliente no ha tomado clases o está inactivo",
+      "steps": [
+        "Cliente no ha tomado clases o está inactivo"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Clientes nuevos Whatsapp": "Cliente no ha tomado clases o está inactivo"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "generales-contacto-de-empresa-alianza-o-invitacion-e83b414a",
+      "category": "Generales",
+      "title": "Contacto de empresa (alianza o invitación)",
+      "summary": ";Mensae inicial para empresa",
+      "steps": [
+        ";Mensae inicial para empresa",
+        "Preguntar si es gratis o hay que pagar"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Clientes nuevos Whatsapp": "Contacto de empresa (alianza o invitación)",
+          "Base de datos según conversación": ";Mensae inicial para empresa",
+          "Guión de ventas": "Preguntar si es gratis o hay que pagar"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "generales-en-caso-de-robo-de-un-dispositivo-que-haya-tenid-05ce9d93",
+      "category": "Generales",
+      "title": "En caso de robo de un dispositivo que haya tenido abierto un correo de Musicala",
+      "summary": "En caso de robo de un dispositivo que haya tenido abierto un correo de Musicala",
+      "steps": [
+        "En caso de robo de un dispositivo que haya tenido abierto un correo de Musicala"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Clientes nuevos Whatsapp": "En caso de robo de un dispositivo que haya tenido abierto un correo de Musicala"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "generales-parqueadero-997e66ad",
+      "category": "Generales",
+      "title": "Parqueadero",
+      "summary": "Motos con baúl a la derecha",
+      "steps": [
+        "Motos con baúl a la derecha"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Clientes nuevos Whatsapp": "Parqueadero",
+          "Base de datos según conversación": "Motos con baúl a la derecha"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "generales-protocolo-para-la-entrega-de-instrumentos-y-herr-278f60fc",
+      "category": "Generales",
+      "title": "Protocolo para la Entrega de Instrumentos y Herramientas Musicales",
+      "summary": "Recepción del Cliente\n\nEl cliente debe presentarse en el área designada para la entrega de instrumentos, acompañado de su documento de identidad.\nUn miembro del equipo de Musica…",
+      "steps": [
+        "Recepción del Cliente",
+        "El cliente debe presentarse en el área designada para la entrega de instrumentos, acompañado de su documento de identidad.",
+        "Un miembro del equipo de Musicala verificará la solicitud previamente realizada y confirmará los detalles del alquiler.",
+        "Revisión del Instrumento",
+        "Antes de la entrega, se realiza una inspección visual del instrumento para asegurar que esté en perfectas condiciones. Esto incluye revisar el estado general, funcionalidad y limpieza.",
+        "Se documentan y se informan al cliente las condiciones del instrumento, incluyendo cualquier detalle preexistente, si lo hubiera."
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Clientes nuevos Whatsapp": "Protocolo para la Entrega de Instrumentos y Herramientas Musicales",
+          "Base de datos según conversación": "Recepción del Cliente\n\nEl cliente debe presentarse en el área designada para la entrega de instrumentos, acompañado de su documento de identidad.\nUn miembro del equipo de Musicala verificará la solicitud previamente realizada y confirmará los detalles del alquiler.",
+          "Guión de ventas": "Revisión del Instrumento\n\nAntes de la entrega, se realiza una inspección visual del instrumento para asegurar que esté en perfectas condiciones. Esto incluye revisar el estado general, funcionalidad y limpieza.\nSe documentan y se informan al cliente las condiciones del instrumento, incluyendo cualquier detalle preexistente, si lo hubiera."
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "generales-supervision-de-espacios-antes-de-cada-clase-dfc240e7",
+      "category": "Generales",
+      "title": "Supervisión de espacios antes de cada clase",
+      "summary": "5 minutos antes de cada clase revisar que todo esté en orden para iniciar",
+      "steps": [
+        "5 minutos antes de cada clase revisar que todo esté en orden para iniciar"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Clientes nuevos Whatsapp": "Supervisión de espacios antes de cada clase",
+          "Base de datos según conversación": "5 minutos antes de cada clase revisar que todo esté en orden para iniciar"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "legal-documento-de-acuerdo-de-finalizacion-de-contrato-4d129a27",
+      "category": "Legal",
+      "title": "Documento de acuerdo de finalización de contrato",
+      "summary": "Acuerdo de terminación por común acuerdo",
+      "steps": [
+        "Acuerdo de terminación por común acuerdo",
+        "Reunión de Cierre",
+        "Acta de reunión de cierre",
+        "Notiicación a Ministerio de trabajo"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Renuncia de un docente de la FSA": "Acuerdo de terminación por común acuerdo",
+          "1. 📥 Recepción formal de la renuncia Verificar que la renuncia esté por escrito, con fecha y firma o confirmación digital verificable. Registrar la fecha de último día laborado (no necesariamente coincide con la fecha de envío de la renuncia).": "Reunión de Cierre",
+          "2. 🗂️ Activación del proceso interno Iniciar el cierre laboral interno, incluyendo: Liquidación de pagos. Certificación laboral. Archivo de actas o seguimientos (uso exclusivo interno).": "Acta de reunión de cierre",
+          "3. 📩 Comunicación oficial a la coordinación de la FSA Enviar un correo formal (sin adjuntar documentos personales) informando: Nombre completo del docente. Fecha efectiva de su retiro. Indicación clara de que la renuncia fue por decisión personal. Que se está gestionando el reemplazo o reprogramación de actividades.": "Documento de acuerdo de finalización de contrato",
+          "4. 🧭 Comunicación interna a líderes de centro (Si el docente estaba asignado a uno o más centros FSA) Informar brevemente la desvinculación del docente. Indicar que se activará la asignación de reemplazo o ajustes temporales. Reiterar la confidencialidad del proceso.": "Notiicación a Ministerio de trabajo"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    },
+    {
+      "id": "recursos-humanos-inicio-de-relacion-laboral-87b3aabe",
+      "category": "Recursos Humanos",
+      "title": "Inicio de relación laboral",
+      "summary": "Recepción de HV y perfil con formulario",
+      "steps": [
+        "Recepción de HV y perfil con formulario",
+        "Entrevista virtual",
+        "Entrevista presencial",
+        "Reunión de firma de contrato y exámenes",
+        "Afiliación a todas las entidades (EPS, ARL, Pensión)"
+      ],
+      "meta": {
+        "source": "Protocolos y flujos Musicala 2026.xlsx",
+        "generated_at": "2026-01-29T01:58:43.856973Z"
+      },
+      "fields": {
+        "raw": {
+          "Cierre de contrato por renuncia": "Inicio de relación laboral",
+          "Recepción de carta de renuncia": "Recepción de HV y perfil con formulario",
+          "Reunión de recepción de carta": "Entrevista virtual",
+          "Enviar acta de terminación de contrato": "Entrevista presencial",
+          "Definir fecha de finalización": "Reunión de firma de contrato y exámenes",
+          "Realizar encuesta de finalización de contrato https://docs.google.com/forms/d/1C2OudbSv5mGwqp9FyzgPOmE1qYcVHmufrg8rM9zBU58/edit": "Afiliación a todas las entidades (EPS, ARL, Pensión)"
+        }
+      },
+      "tags": [],
+      "urgency": "Normal"
+    }
+  ]
+}

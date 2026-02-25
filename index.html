@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#f7f8fc" />
+
+  <title>Protocolos · Musicala</title>
+  <meta name="description" content="Biblioteca de protocolos y flujos de Musicala. Busca, filtra y registra casos con trazabilidad." />
+
+  <!-- Social -->
+  <meta property="og:title" content="Protocolos · Musicala" />
+  <meta property="og:description" content="Biblioteca de protocolos y flujos de Musicala." />
+  <meta property="og:type" content="website" />
+
+  <!-- Performance -->
+  <link rel="preload" as="image" href="./assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <!-- Accesibilidad -->
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <!-- =========================
+       TOPBAR
+  ========================== -->
+  <header class="topbar" role="banner">
+    <div class="topbar__left">
+      <div class="brand" aria-label="Protocolos Musicala">
+
+        <img
+          class="brand__logo"
+          src="./assets/logo.png"
+          alt="Musicala"
+          width="42"
+          height="42"
+          loading="eager"
+          decoding="async"
+          referrerpolicy="no-referrer"
+          onerror="this.remove(); document.documentElement.classList.add('no-logo');"
+        />
+
+        <div class="brand__mark" aria-hidden="true">M</div>
+
+        <div class="brand__text">
+          <div class="brand__title">Protocolos</div>
+          <div class="brand__sub">Musicala · Biblioteca y flujos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar__right" aria-label="Acciones principales">
+
+      <!-- Usuario -->
+      <div class="userpill" id="userPill" hidden>
+        <span class="userpill__dot" aria-hidden="true"></span>
+        <span class="userpill__name" id="userName">Usuario</span>
+      </div>
+
+      <!-- Admin -->
+      <button id="btnNew" class="btn" type="button" hidden>
+        + Nuevo
+      </button>
+
+      <!-- Auth -->
+      <button id="btnLogin" class="btn btn--ghost" type="button">
+        Ingresar
+      </button>
+
+      <button id="btnLogout" class="btn btn--ghost" type="button" hidden>
+        Salir
+      </button>
+
+      <button id="btnHelp" class="btn btn--ghost" type="button" aria-haspopup="dialog" aria-controls="help">
+        Ayuda
+      </button>
+
+      <button id="btnExport" class="btn" type="button">
+        Exportar
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================
+       LAYOUT
+  ========================== -->
+  <main id="main" class="layout" role="main">
+
+    <!-- SIDEBAR -->
+    <aside class="side" aria-label="Filtros y búsqueda">
+
+      <div class="side__search">
+        <label class="label" for="q">Buscar</label>
+
+        <div class="search" role="search">
+          <input
+            id="q"
+            type="search"
+            placeholder='Ej: "queja de acudiente", evacuación…'
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="Buscar protocolos"
+          />
+          <button id="btnClear" class="btn btn--ghost" type="button" aria-label="Limpiar búsqueda">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <div class="side__filters" aria-label="Filtros">
+        <div class="row">
+
+          <div class="field">
+            <label class="label" for="category">Categoría</label>
+            <select id="category"></select>
+          </div>
+
+          <div class="field">
+            <label class="label" for="urgency">Urgencia</label>
+            <select id="urgency">
+              <option value="">Todas</option>
+              <option value="urgent">Urgente</option>
+              <option value="important">Importante</option>
+              <option value="normal">Normal</option>
+            </select>
+          </div>
+
+        </div>
+
+        <div class="chips" id="chips"></div>
+
+        <p class="hint" id="hint">
+          Tip: usa etiquetas como <b>seguridad</b>, <b>clases</b>, <b>ventas</b>.
+        </p>
+      </div>
+
+      <section class="side__stats" id="stats"></section>
+    </aside>
+
+    <!-- CONTENT -->
+    <section class="content" aria-label="Listado de protocolos">
+
+      <div class="content__header">
+        <div>
+          <h1 class="h1">Protocolos</h1>
+          <div class="muted" id="subtitle" role="status" aria-live="polite">
+            Cargando…
+          </div>
+        </div>
+
+        <div class="content__actions">
+          <button id="btnRandom" class="btn btn--ghost" type="button">
+            Aleatorio
+          </button>
+          <button id="btnPrint" class="btn" type="button">
+            Imprimir
+          </button>
+        </div>
+      </div>
+
+      <!-- Estado inline -->
+      <div class="inline-state" id="inlineState" hidden>
+        <div class="inline-state__icon" aria-hidden="true">⏳</div>
+        <div class="inline-state__title" id="inlineTitle">
+          Cargando protocolos…
+        </div>
+        <div class="inline-state__sub" id="inlineSub">
+          Esto debería tardar poco.
+        </div>
+      </div>
+
+      <div class="grid" id="grid" aria-live="polite"></div>
+
+      <div class="empty" id="empty" hidden>
+        <div class="empty__icon" aria-hidden="true">🧭</div>
+        <div class="empty__title">No encontré nada</div>
+        <div class="empty__sub">Prueba con otras palabras o cambia la categoría.</div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- =========================
+       MODAL PROTOCOLO
+  ========================== -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__backdrop" data-close="1"></div>
+
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+
+      <div class="modal__head">
+        <div class="badge" id="mBadge">Normal</div>
+        <h2 class="modal__title" id="mTitle">Protocolo</h2>
+        <button class="iconbtn" id="mClose" type="button">✕</button>
+      </div>
+
+      <div class="modal__body">
+
+        <p class="lead" id="mSummary"></p>
+
+        <div class="section" id="mChecklistWrap" hidden>
+          <div class="section__title">Checklist</div>
+          <div class="checklist" id="mChecklist"></div>
+        </div>
+
+        <div class="section">
+          <div class="section__title">Detalle</div>
+          <div class="kv" id="mFields"></div>
+        </div>
+
+      </div>
+
+      <div class="modal__foot">
+        <button id="btnEdit" class="btn btn--ghost" type="button" hidden>Editar</button>
+        <button id="btnCopy" class="btn btn--ghost" type="button">Copiar</button>
+        <button id="btnCase" class="btn" type="button">Registrar caso</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =========================
+       HELP
+  ========================== -->
+  <div class="modal" id="help" hidden>
+    <div class="modal__backdrop" data-close="1"></div>
+
+    <div class="modal__panel modal__panel--small" role="dialog" aria-modal="true" aria-labelledby="hTitle">
+
+      <div class="modal__head">
+        <div class="badge">Guía</div>
+        <h2 class="modal__title" id="hTitle">Cómo usar esto</h2>
+        <button class="iconbtn" data-close="1" type="button">✕</button>
+      </div>
+
+      <div class="modal__body">
+        <ul class="list">
+          <li>Escribe lo que pasó en <b>Buscar</b>.</li>
+          <li>Filtra por <b>Categoría</b>.</li>
+          <li>Marca el <b>Checklist</b> mientras ejecutas.</li>
+          <li>Admins pueden crear y editar.</li>
+        </ul>
+      </div>
+
+      <div class="modal__foot">
+        <button class="btn" data-close="1" type="button">Listo</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="./app.js"></script>
+
+  <noscript>
+    <div style="max-width:900px;margin:18px auto;padding:14px;border:1px solid #e6e8f0;border-radius:16px;background:#fff;">
+      Necesitas habilitar JavaScript para usar esta herramienta.
+    </div>
+  </noscript>
+
+  <!-- Fallback logo -->
+  <style>
+    .brand__mark{display:none}
+    html.no-logo .brand__mark{
+      display:grid;
+      width:42px;height:42px;border-radius:14px;
+      background: linear-gradient(135deg, rgba(12,65,196,.12), rgba(206,0,113,.10));
+      border:1px solid rgba(12,65,196,.22);
+      place-items:center;
+      font-weight:900;
+      color:#220A63;
+    }
+  </style>
+
+</body>
+</html>
