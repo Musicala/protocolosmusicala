@@ -1,34 +1,27 @@
 {
   "name": "protocolos-musicala",
-  "version": "1.0.0",
-  "description": "Protocolos · Musicala (Firestore Edition)",
+  "version": "2.0.0",
+  "description": "Protocolos · Musicala (Static Web + Firebase CDN)",
   "private": true,
   "type": "module",
-  "main": "app.js",
 
   "scripts": {
-    "dev": "vite --host",
-    "start": "npm run dev",
-    "build": "vite build",
-    "preview": "vite preview --host",
+    "start": "echo \"Proyecto estático: abre index.html o usa Live Server\"",
+    "dev": "echo \"No hay Vite. Usa Live Server o GitHub Pages\"",
 
     "import:protocolos": "node scripts/import-protocolos.mjs",
 
-    "clean": "rimraf dist .vite node_modules/.vite",
-    "reset": "npm run clean && npm install",
-
     "lint": "eslint .",
-    "format": "prettier . --write",
-    "typecheck": "tsc -p ./tsconfig.json --noEmit"
+    "format": "prettier . --write"
   },
 
   "keywords": [
     "musicala",
     "protocolos",
-    "firestore",
     "firebase",
-    "vite",
-    "pwa"
+    "firestore",
+    "static-site",
+    "github-pages"
   ],
 
   "author": "Musicala",

@@ -1,33 +1,40 @@
 /* =============================================================================
-  firebase.js — Protocolos · Musicala (LIGHT) — Firebase Setup (PRO)
+  firebase.js — Protocolos · Musicala (LIGHT) — GitHub Pages Ready
   -----------------------------------------------------------------------------
-  ✅ Singleton (evita doble init en dev/HMR)
-  ✅ Soporta ENV vars (Vite) opcional
-  ✅ Exporta: app, db, auth, provider
+  ✅ Compatible con navegador sin Node ni Vite
+  ✅ Imports desde CDN oficial de Firebase
+  ✅ Singleton para evitar doble init
+  ✅ Exporta app, db, auth, provider
+  ✅ Exporta helpers de Firestore/Auth usados por app.js
+  ✅ Permite override opcional con window.__FIREBASE_CONFIG__
 ============================================================================= */
 
 'use strict';
 
-import { initializeApp, getApps, getApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
-import { getAuth, GoogleAuthProvider } from 'firebase/auth';
+/* -----------------------------------------------------------------------------
+  Firebase SDK desde CDN oficial
+  Esto sí funciona en GitHub Pages y hosting estático.
+----------------------------------------------------------------------------- */
+import { initializeApp, getApps, getApp } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js';
+
+import { getFirestore, collection, getDocs, addDoc, doc, setDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js';
+
+import {
+  getAuth,
+  GoogleAuthProvider,
+  onAuthStateChanged,
+  signInWithPopup,
+  signOut,
+  setPersistence,
+  browserLocalPersistence
+} from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js';
 
 /* -----------------------------------------------------------------------------
-  1) Config
-  Recomendado (Vite): define variables en .env:
-    VITE_FIREBASE_API_KEY=...
-    VITE_FIREBASE_AUTH_DOMAIN=...
-    VITE_FIREBASE_PROJECT_ID=...
-    VITE_FIREBASE_STORAGE_BUCKET=...
-    VITE_FIREBASE_MESSAGING_SENDER_ID=...
-    VITE_FIREBASE_APP_ID=...
-
-  Si no existen, usa el fallback hardcoded (tu config actual).
+  Config por defecto
+  IMPORTANTE:
+  Esta configuración cliente NO es un secreto.
+  La seguridad real vive en Auth + Firestore Rules.
 ----------------------------------------------------------------------------- */
-
-const ENV = (typeof import.meta !== 'undefined' && import.meta.env) ? import.meta.env : {};
-
-// Fallback hardcoded (funciona igual)
 const FALLBACK_CONFIG = {
   apiKey: 'AIzaSyAEtWoz2J-eVHnV6FCl1A41N-p9vIvznaI',
   authDomain: 'protocolos-musicala.firebaseapp.com',
@@ -37,45 +44,111 @@ const FALLBACK_CONFIG = {
   appId: '1:431338520687:web:36ff433c905859ebda4d9a'
 };
 
-function pickConfig() {
-  const cfg = {
-    apiKey: ENV.VITE_FIREBASE_API_KEY,
-    authDomain: ENV.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: ENV.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: ENV.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: ENV.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: ENV.VITE_FIREBASE_APP_ID
+/* -----------------------------------------------------------------------------
+  Override opcional
+  Si más adelante quieren, pueden poner en index.html antes de app.js algo como:
+  <script>
+    window.__FIREBASE_CONFIG__ = { ... }
+  </script>
+----------------------------------------------------------------------------- */
+function readRuntimeConfig() {
+  const cfg = globalThis?.__FIREBASE_CONFIG__;
+  if (!cfg || typeof cfg !== 'object') return null;
+
+  const normalized = {
+    apiKey: cfg.apiKey,
+    authDomain: cfg.authDomain,
+    projectId: cfg.projectId,
+    storageBucket: cfg.storageBucket,
+    messagingSenderId: cfg.messagingSenderId,
+    appId: cfg.appId
   };
 
-  // Si falta algo clave, nos vamos con fallback.
-  const hasAll = Object.values(cfg).every(Boolean);
-  return hasAll ? cfg : FALLBACK_CONFIG;
+  const hasMinimum =
+    normalized.apiKey &&
+    normalized.authDomain &&
+    normalized.projectId &&
+    normalized.appId;
+
+  return hasMinimum ? normalized : null;
+}
+
+export function pickConfig() {
+  return readRuntimeConfig() || FALLBACK_CONFIG;
 }
 
 export const firebaseConfig = pickConfig();
 
 /* -----------------------------------------------------------------------------
-  2) App (singleton)
+  Singleton global
 ----------------------------------------------------------------------------- */
+const FIREBASE_SINGLETON_KEY = '__MUSICALA_PROTOCOLS_FIREBASE_SINGLETON__';
 
-export const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
+function createFirebaseSingleton() {
+  const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+  const auth = getAuth(app);
+  const provider = new GoogleAuthProvider();
+
+  provider.setCustomParameters({
+    prompt: 'select_account'
+  });
+
+  return { app, db, auth, provider };
+}
+
+const singleton =
+  globalThis[FIREBASE_SINGLETON_KEY] ||
+  (globalThis[FIREBASE_SINGLETON_KEY] = createFirebaseSingleton());
 
 /* -----------------------------------------------------------------------------
-  3) Services
+  Exports principales
 ----------------------------------------------------------------------------- */
+export const app = singleton.app;
+export const db = singleton.db;
+export const auth = singleton.auth;
+export const provider = singleton.provider;
 
-export const db = getFirestore(app);
+/* -----------------------------------------------------------------------------
+  Persistencia de sesión
+  Esto hace que la sesión sobreviva al refresco del navegador.
+  Si falla, no rompemos la app por eso.
+----------------------------------------------------------------------------- */
+try {
+  await setPersistence(auth, browserLocalPersistence);
+} catch (error) {
+  console.warn('[firebase.js] No se pudo establecer persistencia local:', error);
+}
 
-export const auth = getAuth(app);
+/* -----------------------------------------------------------------------------
+  Re-export de helpers que app.js necesita
+----------------------------------------------------------------------------- */
+export {
+  collection,
+  getDocs,
+  addDoc,
+  doc,
+  setDoc,
+  serverTimestamp,
+  onAuthStateChanged,
+  signInWithPopup,
+  signOut
+};
 
-// Google Provider
-export const provider = new GoogleAuthProvider();
+/* -----------------------------------------------------------------------------
+  Helper opcional para depuración
+----------------------------------------------------------------------------- */
+export function firebaseReady() {
+  return {
+    app: !!app,
+    db: !!db,
+    auth: !!auth,
+    provider: !!provider,
+    projectId: firebaseConfig?.projectId || null
+  };
+}
 
-// UX: siempre preguntar cuenta (evita entrar con la última sin querer)
-provider.setCustomParameters({
-  prompt: 'select_account'
+console.info('[firebase.js] Firebase inicializado', {
+  projectId: firebaseConfig?.projectId || null,
+  authDomain: firebaseConfig?.authDomain || null
 });
-
-// Opcional: scopes extra si luego quieren leer Drive/Calendar etc.
-// provider.addScope('https://www.googleapis.com/auth/userinfo.email');
-// provider.addScope('https://www.googleapis.com/auth/userinfo.profile');
